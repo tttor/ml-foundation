@@ -7,6 +7,7 @@ Deep learning foundation
   * http://torch.ch/
 * level1
   * https://keras.io/
+  * http://tflearn.org/
 
 ## course
 * https://www.deeplearning.ai/

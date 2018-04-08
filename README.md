@@ -1,7 +1,9 @@
 # dl-foundation
 Deep learning foundation
 
-
+## book
+* http://www.deeplearningbook.org/
+* http://neuralnetworksanddeeplearning.com/
 
 ## talk
 * recurrent nets

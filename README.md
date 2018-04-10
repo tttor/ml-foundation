@@ -19,8 +19,9 @@ Deep learning foundation
   * https://keras.io/
   * http://tflearn.org/
 
-## course
+## course, tutor, workshop
 * https://www.deeplearning.ai/
 * https://developers.google.com/machine-learning/crash-course/
 * http://vision.stanford.edu/teaching/cs231n/
 * http://web.stanford.edu/class/cs20si/
+* http://deeplearning.stanford.edu/wiki/index.php/UFLDL_Tutorial

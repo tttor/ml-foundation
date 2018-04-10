@@ -23,3 +23,4 @@ Deep learning foundation
 * https://www.deeplearning.ai/
 * https://developers.google.com/machine-learning/crash-course/
 * http://vision.stanford.edu/teaching/cs231n/
+* http://web.stanford.edu/class/cs20si/

@@ -4,6 +4,7 @@ Deep learning foundation
 ## book
 * http://www.deeplearningbook.org/
 * http://neuralnetworksanddeeplearning.com/
+* https://www.packtpub.com/big-data-and-business-intelligence/tensorflow-1x-deep-learning-cookbook
 
 ## talk
 * recurrent nets

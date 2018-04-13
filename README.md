@@ -25,3 +25,6 @@ Deep learning foundation
 * http://vision.stanford.edu/teaching/cs231n/
 * http://web.stanford.edu/class/cs20si/
 * http://deeplearning.stanford.edu/wiki/index.php/UFLDL_Tutorial
+
+## related source
+* http://www.jeremydjacksonphd.com/category/deep-learning/

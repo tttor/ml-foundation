@@ -1,0 +1,4 @@
+# initialization
+
+## taxonomy
+* Xavier initialization

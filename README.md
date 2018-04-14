@@ -29,3 +29,4 @@ Deep learning foundation
 
 ## related source
 * http://www.jeremydjacksonphd.com/category/deep-learning/
+* https://github.com/tttor/rl-foundation

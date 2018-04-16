@@ -38,7 +38,9 @@
     * do not contain any data and thus there is no need to initialize them as well.
 * TensorFlow sequences are not iterable
 * tf.div returns a tensor of the same type as the first argument.
-* TensorFlow has TensorBoard to provide a graphical image of the computation graph
+* TensorFlow 
+  * has TensorBoard to provide a graphical image of the computation graph
+  * uses C/C++ at the backend, which makes it computationally fast.
 * supports both CPUs and GPUs. It also supports distributed computation
   * if both CPU and GPU are present, TensorFlow gives priority to GPU.
   * https://stackoverflow.com/questions/38836269/does-tensorflow-view-all-cpus-of-one-machine-as-one-device

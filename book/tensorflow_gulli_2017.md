@@ -36,8 +36,14 @@
     * used to feed values into a TensorFlow graph
     * to feed new training examples while training a neural network
     * do not contain any data and thus there is no need to initialize them as well.
+* TensorFlow sequences are not iterable
+* tf.div returns a tensor of the same type as the first argument.
+* TensorFlow has TensorBoard to provide a graphical image of the computation graph
+* supports both CPUs and GPUs. It also supports distributed computation
+  * if both CPU and GPU are present, TensorFlow gives priority to GPU.
+  * https://stackoverflow.com/questions/38836269/does-tensorflow-view-all-cpus-of-one-machine-as-one-device
 * fn
   * tf.set_random_seed()
   * tf.convert_to_tensor()
-* TensorFlow sequences are not iterable
-* tf.div returns a tensor of the same type as the first argument.
+  * tf.cast() # to convert Tensors from one data type to another
+  * tf.truediv(a,b) # first casts the integer tensors to floating points and then performs element-wise division.

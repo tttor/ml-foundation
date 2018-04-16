@@ -7,6 +7,7 @@
 * level1
   * https://keras.io/
   * http://tflearn.org/
+  * tfslim: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/slim
   
 ## dataset
 * mnist: http://yann.lecun.com/exdb/mnist/

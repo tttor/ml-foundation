@@ -2,6 +2,8 @@
 * Antonio Gulli, Amita Kapoor
 * December 2017
 * https://www.packtpub.com/big-data-and-business-intelligence/tensorflow-1x-deep-learning-cookbook
+* https://github.com/PacktPublishing/TensorFlow-1x-Deep-Learning-Cookbook
+* https://github.com/tttor/TensorFlow-1x-Deep-Learning-Cookbook/tree/devel
 
 ## ch 1: intro
 * vs numpy for writing code for a simple one-layer feedforward network

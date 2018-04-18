@@ -5,7 +5,7 @@
 * https://github.com/PacktPublishing/TensorFlow-1x-Deep-Learning-Cookbook
 * https://github.com/tttor/TensorFlow-1x-Deep-Learning-Cookbook/tree/devel
 
-## ch 1: intro
+## 1: intro
 * DL lib: 
   * have pretrained models, and 
   * support commonly used NN architectures like 
@@ -65,3 +65,8 @@
   * tf.truediv(a,b) # first casts the integer tensors to floating points and then performs element-wise division.
   * tf.div() # returns a tensor of the same type as the first argument.
   * tf.device() # to use specific devices (CPU/GPU) with different objects of the computation graph
+
+## 9: Reinforcement Learning
+* nice starting point for policy rep using nets: `02_nn_random_agent.py`
+* naive q learning: `03_Q_learning_cartpole.py`
+

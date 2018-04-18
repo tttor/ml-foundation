@@ -7,3 +7,8 @@
 
 ## tensorflow
 * https://www.packtpub.com/big-data-and-business-intelligence/tensorflow-1x-deep-learning-cookbook 
+
+## pytorch
+* https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-pytorch
+  * https://github.com/PacktPublishing/Deep-Learning-with-PyTorch
+  

@@ -5,6 +5,7 @@
 * coursera: https://www.deeplearning.ai/
   * https://www.youtube.com/channel/UCcIXc5mJsHVYTZR1maL5l9w/playlists
   * https://www.youtube.com/channel/UCeqlHZDmUEQQHYqnei8doYg/playlists
+* udacity: https://www.udacity.com/course/deep-learning--ud730
 * http://vision.stanford.edu/teaching/cs231n/
 * http://cs229.stanford.edu/
 * http://web.stanford.edu/class/cs224n/

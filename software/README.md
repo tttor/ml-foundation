@@ -1,13 +1,12 @@
 # software, dataset
 
 ## software
-* level0
-  * https://www.tensorflow.org/
-  * http://torch.ch/
-* level1
+* https://www.tensorflow.org/
   * https://keras.io/
   * http://tflearn.org/
   * tfslim: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/slim
+* http://torch.ch/
+  * http://pytorch.org/
   
 ## dataset
 * mnist: http://yann.lecun.com/exdb/mnist/

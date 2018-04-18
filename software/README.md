@@ -2,11 +2,13 @@
 
 ## software
 * https://www.tensorflow.org/
-  * https://keras.io/
-  * http://tflearn.org/
-  * tfslim: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/slim
+  * wrapper
+    * https://keras.io/
+    * http://tflearn.org/
+    * tfslim: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/slim
 * http://torch.ch/
   * http://pytorch.org/
+    * https://discuss.pytorch.org/t/roadmap-for-torch-and-pytorch/38
   
 ## dataset
 * mnist: http://yann.lecun.com/exdb/mnist/

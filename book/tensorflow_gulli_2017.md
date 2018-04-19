@@ -69,8 +69,7 @@
 ## 9: Reinforcement Learning
 * nice starting point for policy rep using nets: `02_nn_random_agent.py`
 * naive q learning with nets: `03_Q_learning_cartpole.py`
+* policy grad in Atari pong: `05_policy_gradients_pong.py`
 * TensorFlow does not have a maximum optimizer, thus
   * use the negative of the gradient of performance and 
   * minimize it.
-  
-

@@ -9,6 +9,7 @@
 * http://vision.stanford.edu/teaching/cs231n/
 * http://cs229.stanford.edu/
 * http://web.stanford.edu/class/cs224n/
+* http://course.fast.ai/
 
 ### tool
 * http://web.stanford.edu/class/cs20si/

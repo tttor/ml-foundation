@@ -4,6 +4,7 @@ See also:
 * https://github.com/tttor/robot-foundation
 
 ## related source
+* http://deeplearning.net/
 * http://www.jeremydjacksonphd.com/category/deep-learning/
 * http://ml-cheatsheet.readthedocs.io/en/latest/index.html
-* http://deeplearning.net/
+* https://github.com/episodeyang/deep_learning_notes

@@ -16,3 +16,6 @@
 * wordnet: https://wordnet.princeton.edu/
 * imagenet: http://www.image-net.org/
 * youtube8m: https://research.google.com/youtube8m/
+
+## misc
+* https://mlperf.org/

@@ -11,6 +11,7 @@
 * http://web.stanford.edu/class/cs224n/
 * http://web.stanford.edu/class/cs20si/
 * http://www.cs.cornell.edu/courses/cs6787
+* http://bayesiandeeplearning.org/
 
 ## tutor
 * http://deeplearning.stanford.edu/wiki/index.php/UFLDL_Tutorial

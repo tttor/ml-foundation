@@ -1,4 +1,4 @@
-# course, tutor
+# course, tutor, workshop
 
 ## course
 * coursera: https://www.deeplearning.ai/
@@ -18,3 +18,7 @@
 * https://developers.google.com/machine-learning/crash-course/
 * https://learningtensorflow.com
 * https://github.com/aymericdamien/TensorFlow-Examples
+
+## workshop
+* http://juxi.net/workshop/deep-learning-rss-2016/
+  * https://www.youtube.com/playlist?list=PL2EfTVAIHZW-2GxdCRFjUVuJAmitxniX3

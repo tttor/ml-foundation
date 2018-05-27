@@ -20,5 +20,8 @@
 * https://github.com/aymericdamien/TensorFlow-Examples
 
 ## workshop
-* http://juxi.net/workshop/deep-learning-rss-2016/
+* rss2017: New Frontiers for Deep Learning in Robotics.
+  * http://juxi.net/workshop/deep-learning-rss-2017/
+* rss2016: sAre the Sceptics Right? Limits and Potentials of Deep Learning in Robotics
+  * http://juxi.net/workshop/deep-learning-rss-2016/
   * https://www.youtube.com/playlist?list=PL2EfTVAIHZW-2GxdCRFjUVuJAmitxniX3

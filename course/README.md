@@ -7,6 +7,7 @@
 * udacity: https://www.udacity.com/course/deep-learning--ud730
 * http://course.fast.ai/
 * http://vision.stanford.edu/teaching/cs231n/
+  * http://cs231n.github.io/
 * http://cs229.stanford.edu/
 * http://web.stanford.edu/class/cs224n/
 * http://web.stanford.edu/class/cs20si/

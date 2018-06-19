@@ -12,6 +12,7 @@
 * http://web.stanford.edu/class/cs224n/
 * http://web.stanford.edu/class/cs20si/
 * http://www.cs.cornell.edu/courses/cs6787
+* http://www.cs.toronto.edu/~tijmen/csc321/
 * http://bayesiandeeplearning.org/
 
 ## tutor

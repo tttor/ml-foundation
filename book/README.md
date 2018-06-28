@@ -2,6 +2,7 @@
 
 ## deep learning
 * http://www.deeplearningbook.org/
+  * https://www.youtube.com/channel/UCF9O8Vj-FEbRDA5DcDGz-Pg/videos
 * http://neuralnetworksanddeeplearning.com/
   * https://github.com/mnielsen/neural-networks-and-deep-learning
 

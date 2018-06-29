@@ -1,16 +1,21 @@
 # software, dataset
-
-## software
-* https://www.tensorflow.org/
-  * wrapper
-    * https://keras.io/
-    * http://tflearn.org/
-    * tfslim: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/slim
-    * Tensorlayer: https://github.com/tensorlayer/tensorlayer
-* http://torch.ch/
-  * http://pytorch.org/
-    * https://discuss.pytorch.org/t/roadmap-for-torch-and-pytorch/38
+   
+## http://torch.ch/ + http://pytorch.org/
+* https://discuss.pytorch.org/t/roadmap-for-torch-and-pytorch/38
+* https://github.com/ritchieng/the-incredible-pytorch
   
+### tutor
+* https://github.com/pytorch/examples
+* https://github.com/yunjey/pytorch-tutorial
+* https://github.com/vinhkhuc/PyTorch-Mini-Tutorials
+* https://github.com/hunkim/PyTorchZeroToAll
+
+## https://www.tensorflow.org/
+* https://keras.io/
+* http://tflearn.org/
+* tfslim: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/slim
+* Tensorlayer: https://github.com/tensorlayer/tensorlayer
+
 ## dataset
 * mnist: http://yann.lecun.com/exdb/mnist/
 * cifar10: https://www.cs.toronto.edu/~kriz/cifar.html

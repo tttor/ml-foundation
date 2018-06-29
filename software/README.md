@@ -9,6 +9,7 @@
 * https://github.com/yunjey/pytorch-tutorial
 * https://github.com/vinhkhuc/PyTorch-Mini-Tutorials
 * https://github.com/hunkim/PyTorchZeroToAll
+* https://github.com/MorvanZhou/PyTorch-Tutorial
 
 ## https://www.tensorflow.org/
 * https://keras.io/

@@ -1,17 +1,21 @@
 # optim
-More on second order.
+More on second order. </br>
+See also:
 * https://github.com/tttor/math-foundation/tree/master/optim
 
 ## for deepnet
 * hf:
   * https://github.com/drasmuss/hessianfree
-* kfac
+* kfac @pytorch
   * https://github.com/yaroslavvb/kfac_pytorch/blob/master/kfac_pytorch.py
   * https://github.com/ikostrikov/pytorch-a2c-ppo-acktr/blob/master/algo/kfac.py
-* pytorch
+* SdLBFGS @pytorch
+  https://github.com/harryliew/SdLBFGS
+* standard @pytorch
   * https://pytorch.org/docs/stable/optim.html
+  * L-BFGS
 
-### forum
+## forum
 * https://discuss.pytorch.org/t/is-there-anyway-to-calculate-gauss-hessian-matrix/10016
 * https://discuss.pytorch.org/t/is-there-any-way-to-get-second-order-derivative-or-hessian-matrix/1149/16
 * https://discuss.pytorch.org/t/getting-hessian-matrix-or-more-higher-derivatives/4711/4
@@ -23,13 +27,11 @@ More on second order.
 * https://discuss.pytorch.org/t/higher-order-derivatives-implementation-explanation/6329/2
 
 ## tutor
-* https://studywolf.wordpress.com/2016/04/04/deep-learning-for-control-using-augmented-hessian-free-optimization/
-  * https://github.com/studywolf/blog/blob/master/train_AHF/train_hf.py
 * http://andrew.gibiansky.com/blog/machine-learning/gauss-newton-matrix/
 * http://andrew.gibiansky.com/blog/machine-learning/hessian-free-optimization/
-  * http://bcl.hamilton.ie/~barak/papers/nc-hessian.pdf
-  * http://andrew.gibiansky.com/blog/machine-learning/conjugate-gradient
+* http://andrew.gibiansky.com/blog/machine-learning/conjugate-gradient
 * https://justindomke.wordpress.com/2009/01/17/hessian-vector-products/
-
-
+* http://ruder.io/deep-learning-optimization-2017/
+* https://studywolf.wordpress.com/2016/04/04/deep-learning-for-control-using-augmented-hessian-free-optimization/
+  * https://github.com/studywolf/blog/blob/master/train_AHF/train_hf.py
 

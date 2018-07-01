@@ -1,10 +1,5 @@
 # method
 
-## optim
-* https://github.com/tttor/math-foundation/tree/master/optim
-* https://www.tensorflow.org/api_docs/python/tf/train
-* https://pytorch.org/docs/stable/optim.html
-
 ### course
 * http://www.cs.cornell.edu/courses/cs6787/2017fa/
 

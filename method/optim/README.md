@@ -6,14 +6,15 @@ See also:
 ## for deepnet
 * hf:
   * https://github.com/drasmuss/hessianfree
-* kfac @pytorch
-  * https://github.com/yaroslavvb/kfac_pytorch/blob/master/kfac_pytorch.py
-  * https://github.com/ikostrikov/pytorch-a2c-ppo-acktr/blob/master/algo/kfac.py
 * SdLBFGS @pytorch
-  https://github.com/harryliew/SdLBFGS
+  * https://github.com/harryliew/SdLBFGS
 * standard @pytorch
   * https://pytorch.org/docs/stable/optim.html
   * L-BFGS
+    * https://discuss.pytorch.org/t/lbfgs-not-functioning-the-way-it-is/16705
+* kfac @pytorch
+  * https://github.com/yaroslavvb/kfac_pytorch/blob/master/kfac_pytorch.py
+  * https://github.com/ikostrikov/pytorch-a2c-ppo-acktr/blob/master/algo/kfac.py
 
 ## forum
 * https://discuss.pytorch.org/t/is-there-anyway-to-calculate-gauss-hessian-matrix/10016

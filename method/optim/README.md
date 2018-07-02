@@ -4,16 +4,21 @@ See also:
 * https://github.com/tttor/math-foundation/tree/master/optim
 
 ## for deepnet
-* hf:
-  * https://github.com/drasmuss/hessianfree
+* hessian-free:
+  * https://github.com/drasmuss/hessianfree # own net
+  * https://github.com/MoonL1ght/HessianFreeOptimization # tf
 * SdLBFGS @pytorch
   * https://github.com/harryliew/SdLBFGS
 * standard @pytorch
   * https://pytorch.org/docs/stable/optim.html
   * L-BFGS
     * https://discuss.pytorch.org/t/lbfgs-not-functioning-the-way-it-is/16705
+    * https://discuss.pytorch.org/t/lbfgs-doesnt-seem-to-work-well/9195/2
 * kfac @pytorch
+  * (not yet implemented in pytorch/optim, now more like an add-on, augment existing optimizers)
   * https://github.com/yaroslavvb/kfac_pytorch/blob/master/kfac_pytorch.py
+    * https://medium.com/@yaroslavvb/optimizing-deeper-networks-with-kfac-in-pytorch-4004adcba1b0
+    * https://github.com/yaroslavvb/kfac_pytorch/blob/master/deep_autoencoder.ipynb
   * https://github.com/ikostrikov/pytorch-a2c-ppo-acktr/blob/master/algo/kfac.py
 
 ## forum

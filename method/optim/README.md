@@ -2,6 +2,7 @@
 More on second order. </br>
 See also:
 * https://github.com/tttor/math-foundation/tree/master/optim
+* https://github.com/tttor/rl-foundation/tree/master/method/policy-based/optim
 
 ## for deepnet
 * hessian-free (following (Martens, 2010))

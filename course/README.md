@@ -6,6 +6,7 @@
   * https://www.youtube.com/channel/UCeqlHZDmUEQQHYqnei8doYg/playlists
 * udacity: https://www.udacity.com/course/deep-learning--ud730
 * http://course.fast.ai/
+  * https://github.com/fastai/courses
 * http://vision.stanford.edu/teaching/cs231n/
   * http://cs231n.github.io/
 * http://cs229.stanford.edu/

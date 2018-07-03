@@ -1,6 +1,9 @@
 # Deep learning via Hessian-free optimization
 * James Martens
 * icml2010
+* https://github.com/drasmuss/hessianfree # own net
+* https://github.com/MoonL1ght/HessianFreeOptimization # tf
+* https://github.com/doomie/HessianFree # theano
 
 ## problem
 * gradient-descent progresses extremely slowly on deep nets,
@@ -18,7 +21,7 @@
   * but never seriously applied within machine learning.
 
 ## idea: Making HF suitable for machine learning problems
-### damping
+### 4.1: damping
 * Newton-Lanczos methods: very expensive and thus not cost- effective in practice
 * used a simple Levenberg-Marquardt style heuristic for adjusting $\lambda$ directly
 
@@ -38,18 +41,34 @@
   * the associated matrix-vector product algorithm for G
     * uses about half the memory and
     * runs nearly twice as fast.
-* handling large dataset
-* termination condition for CG
-* Sharing information across iterations
-* CG iteration backtracking
-* Preconditioning CG
+
+### 4.3: handling large dataset
+* use relatively large mini-batches,
+  * the optimal size of which grows as the optimization progresses.
+* the gradients and log-likelihoods were computed using the entire dataset.
+  * while we used mini-batches to compute the Bd products,
+
+### 4.4: termination condition for CG
+* to terminate the iterations once the relative per-iteration progress made in
+  minimizing φ(x) fell below some tolerance
+
+### 4.5: Sharing information across iterations
+* to use the search direction $p_{n-1}$ found by CG in the previous HF iteration as
+  the starting point for CG in the current one.
+
+### 4.6: CG iteration backtracking
+* While each successive iteration of CG improves the value of p with respect to
+  the 2nd-order model qθ(p), these im- provements are not necessarily reflected in
+  the value of f(θ +p).
+
+### 4.7: Preconditioning CG
+* we found to be particularly effective was the diagonal matrix
 
 ## setup
 * deep auto-encoder problems considered by Hinton & Salakhutdinov (2006)
-*  implemented our approach using the GPU-computing
-MATLAB package Jacket.
+* implemented our approach using the GPU-computing MATLAB package Jacket.
 * dataset:
-MNIST and FACES, CURVES
+  MNIST and FACES, CURVES
 
 ## result
 * while bad local optima do exist in deep-
@@ -96,6 +115,13 @@ for pre-training
       the linear conjugate gradient algorithm (CG).
 
 ## comment
+* concept
+  * conjugate gradient
+    * krylov basis
+    * terminal condition
+    * proconditioning
+  * hessian-free (a broad term)
+    * Gauss-newton matrix
 * said:
 > Being an optimization algorithm, our approach doesn’t deal specifically with the problem of over-fitting, ...,
   and can be handled by the usual methods of regularization.

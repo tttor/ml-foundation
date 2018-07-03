@@ -120,7 +120,8 @@ for pre-training
     * krylov basis
     * terminal condition
     * proconditioning
-  * hessian-free (a broad term)
+  * hessian-free: without explicit calculation or storage of the Hessian.
+    * nocedal numopt, ch 7
     * Gauss-newton matrix
 * said:
 > Being an optimization algorithm, our approach doesn’t deal specifically with the problem of over-fitting, ...,

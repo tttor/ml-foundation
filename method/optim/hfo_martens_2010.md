@@ -7,8 +7,8 @@
   seeming to halt altogether before making significant progress,
   resulting in poor performance on the training set (under-fitting).
 * using off-the-shelf implementations of HF
-  * that they simply don’t work for neural network
-training, or are at least grossly impractical.
+  * they simply don’t work for neural network training, or
+    are at least grossly impractical.
 
 ## observation
 * gradient descent (curvature-blind) is unsuitable for optimizing objectives
@@ -18,8 +18,26 @@ training, or are at least grossly impractical.
   * but never seriously applied within machine learning.
 
 ## idea: Making HF suitable for machine learning problems
-* damping
-* matrix-vector product
+### damping
+* Newton-Lanczos methods: very expensive and thus not cost- effective in practice
+* used a simple Levenberg-Marquardt style heuristic for adjusting $\lambda$ directly
+
+### 4.2: matrix-vector product
+* the product Hd can be computed using finite- differences,
+  * subject to numerical problems and
+  * also requires the computationally expensive evaluation of non-linear functions
+* Schraudolph (2002) generalized Pearlmutter’s method
+  * to compute the product $Gd$ where $G$ is the Gauss-Newton approximation to the Hessian.
+* reasons for using G instead of H.
+  * Gauss- Newton matrixGis guaranteed to be positive semi-definite, even when un-damped,
+    * which avoids the problem of neg- ative curvature,
+    * thus guaranteeing that CG will work for any positive value of λ.
+  * consistently resulted in much better search directions,
+    * even in situations where negative curvature was not present.
+    * on all of the learning problems we tested,
+  * the associated matrix-vector product algorithm for G
+    * uses about half the memory and
+    * runs nearly twice as fast.
 * handling large dataset
 * termination condition for CG
 * Sharing information across iterations
@@ -75,7 +93,7 @@ for pre-training
     gle extra gradient evaluation via the identity
   * there is a very effective algorithm foroptimizing quadratic objectives (such as qθ (p))
     * which requires only matrix-vector products with B:
-    the linear conjugate gradient algorithm (CG).
+      the linear conjugate gradient algorithm (CG).
 
 ## comment
 * said:

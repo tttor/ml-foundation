@@ -7,6 +7,7 @@ See also:
 * hessian-free (following (Martens, 2010))
   * https://github.com/drasmuss/hessianfree # own net
   * https://github.com/MoonL1ght/HessianFreeOptimization # tf
+  * https://github.com/doomie/HessianFree # theano
 * SdLBFGS @pytorch
   * https://github.com/harryliew/SdLBFGS
 * standard @pytorch

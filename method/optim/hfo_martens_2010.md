@@ -121,8 +121,8 @@ for pre-training
     * terminal condition
     * proconditioning
   * hessian-free: without explicit calculation or storage of the Hessian.
-    * nocedal numopt, ch 7
-    * Gauss-newton matrix
+    * nocedal numopt, ch 7: Large-Scale Unconstrained Optimization
+    * Gauss-newton matrix, ch 10
 * said:
 > Being an optimization algorithm, our approach doesn’t deal specifically with the problem of over-fitting, ...,
   and can be handled by the usual methods of regularization.

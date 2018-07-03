@@ -4,7 +4,7 @@ See also:
 * https://github.com/tttor/math-foundation/tree/master/optim
 
 ## for deepnet
-* hessian-free:
+* hessian-free (following (Martens, 2010))
   * https://github.com/drasmuss/hessianfree # own net
   * https://github.com/MoonL1ght/HessianFreeOptimization # tf
 * SdLBFGS @pytorch

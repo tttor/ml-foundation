@@ -1,4 +1,10 @@
 # tensorflow
+https://www.tensorflow.org/
+
+* https://keras.io/
+* http://tflearn.org/
+* tfslim: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/slim
+* Tensorlayer: https://github.com/tensorlayer/tensorlayer
 
 ## misc
 * Variable scope allows you to create new variables and

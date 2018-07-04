@@ -22,15 +22,17 @@ See also:
   * https://github.com/ikostrikov/pytorch-a2c-ppo-acktr/blob/master/algo/kfac.py
 
 ## forum
+* https://discuss.pytorch.org/t/calculating-hessian-vector-product/11240
 * https://discuss.pytorch.org/t/is-there-anyway-to-calculate-gauss-hessian-matrix/10016
+* https://scicomp.stackexchange.com/questions/14513/minimisation-problem-in-thousands-of-dimensions
+
+<!--
 * https://discuss.pytorch.org/t/is-there-any-way-to-get-second-order-derivative-or-hessian-matrix/1149/16
 * https://discuss.pytorch.org/t/getting-hessian-matrix-or-more-higher-derivatives/4711/4
-* https://discuss.pytorch.org/t/hessian-vector-product-implementation/12923
-* https://discuss.pytorch.org/t/calculating-the-hessian-with-0-2/7233/7
-* https://discuss.pytorch.org/t/calculating-hessian-vector-product/11240/4
 * https://discuss.pytorch.org/t/is-there-any-official-way-to-do-netwons-method-in-pytorch/10199/2
 * https://discuss.pytorch.org/t/how-to-calculate-the-2nd-derivative-of-the-diagonal-of-the-hessian-matrix-from-a-function/15093/4
 * https://discuss.pytorch.org/t/higher-order-derivatives-implementation-explanation/6329/2
+ -->
 
 ## tutor
 * http://andrew.gibiansky.com/blog/machine-learning/gauss-newton-matrix/

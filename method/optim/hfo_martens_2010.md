@@ -32,7 +32,7 @@
 * Schraudolph (2002) generalized Pearlmutter’s method
   * to compute the product $Gd$ where $G$ is the Gauss-Newton approximation to the Hessian.
 * reasons for using G instead of H.
-  * Gauss- Newton matrixGis guaranteed to be positive semi-definite, even when un-damped,
+  * Gauss-Newton matrix G is guaranteed to be positive semi-definite, even when un-damped,
     * which avoids the problem of neg- ative curvature,
     * thus guaranteeing that CG will work for any positive value of λ.
   * consistently resulted in much better search directions,

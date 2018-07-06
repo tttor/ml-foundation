@@ -22,8 +22,6 @@ See also:
   * https://github.com/ikostrikov/pytorch-a2c-ppo-acktr/blob/master/algo/kfac.py
 
 ## forum
-* https://discuss.pytorch.org/t/calculating-hessian-vector-product/11240
-* https://discuss.pytorch.org/t/is-there-anyway-to-calculate-gauss-hessian-matrix/10016
 * https://scicomp.stackexchange.com/questions/14513/minimisation-problem-in-thousands-of-dimensions
 
 <!--

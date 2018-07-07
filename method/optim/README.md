@@ -21,17 +21,6 @@ See also:
     * https://github.com/yaroslavvb/kfac_pytorch/blob/master/deep_autoencoder.ipynb
   * https://github.com/ikostrikov/pytorch-a2c-ppo-acktr/blob/master/algo/kfac.py
 
-## forum
-* https://scicomp.stackexchange.com/questions/14513/minimisation-problem-in-thousands-of-dimensions
-
-<!--
-* https://discuss.pytorch.org/t/is-there-any-way-to-get-second-order-derivative-or-hessian-matrix/1149/16
-* https://discuss.pytorch.org/t/getting-hessian-matrix-or-more-higher-derivatives/4711/4
-* https://discuss.pytorch.org/t/is-there-any-official-way-to-do-netwons-method-in-pytorch/10199/2
-* https://discuss.pytorch.org/t/how-to-calculate-the-2nd-derivative-of-the-diagonal-of-the-hessian-matrix-from-a-function/15093/4
-* https://discuss.pytorch.org/t/higher-order-derivatives-implementation-explanation/6329/2
- -->
-
 ## tutor
 * http://andrew.gibiansky.com/blog/machine-learning/gauss-newton-matrix/
 * http://andrew.gibiansky.com/blog/machine-learning/hessian-free-optimization/
@@ -40,4 +29,4 @@ See also:
 * http://ruder.io/deep-learning-optimization-2017/
 * https://studywolf.wordpress.com/2016/04/04/deep-learning-for-control-using-augmented-hessian-free-optimization/
   * https://github.com/studywolf/blog/blob/master/train_AHF/train_hf.py
-
+* https://scicomp.stackexchange.com/questions/14513/minimisation-problem-in-thousands-of-dimensions

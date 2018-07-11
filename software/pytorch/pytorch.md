@@ -16,10 +16,10 @@
 * https://stackoverflow.com/questions/49446785/how-can-i-update-the-parameters-of-a-neural-network-in-pytorch
 
 ### higher order derivatives
+* https://discuss.pytorch.org/t/is-there-any-way-to-get-second-order-derivative-or-hessian-matrix/1149
+  * https://github.com/pytorch/pytorch/pull/1016#issuecomment-299919437
 * https://github.com/pytorch/pytorch/releases/tag/v0.2.0
 * https://discuss.pytorch.org/t/getting-hessian-matrix-or-more-higher-derivatives/4711
-* https://discuss.pytorch.org/t/is-there-any-way-to-get-second-order-derivative-or-hessian-matrix/1149
-* https://discuss.pytorch.org/t/calculating-the-hessian-with-0-2/7233
 * https://discuss.pytorch.org/t/calculating-the-hessian-with-0-2/7233
 * https://discuss.pytorch.org/t/higher-order-derivatives-implementation-explanation/6329
 

@@ -39,3 +39,5 @@
 * https://discuss.pytorch.org/t/what-is-the-difference-between-tensors-and-variables-in-pytorch/4914/6
   * https://pytorch.org/docs/stable/autograd.html#variable-deprecated
 * https://discuss.pytorch.org/t/any-alternatives-to-flat-for-tensor/3106
+* https://stackoverflow.com/questions/44328530/how-to-get-a-uniform-distribution-in-a-range-r1-r2-in-pytorch
+  * `(r1 - r2) * torch.rand(a, b) + r2` # is uniformly distributed on [r1, r2].

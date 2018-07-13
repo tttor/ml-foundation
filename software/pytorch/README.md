@@ -11,6 +11,12 @@
 * https://jhui.github.io/2018/02/09/PyTorch-Variables-functionals-and-Autograd/
 * https://jhui.github.io/2018/02/09/PyTorch-neural-networks/
 
+## init param
+* https://pytorch.org/docs/stable/nn.html#torch-nn-init
+* https://stackoverflow.com/questions/49433936/how-to-initialize-weights-in-pytorch
+* https://discuss.pytorch.org/t/how-are-layer-weights-and-biases-initialized-by-default/13073
+
+
 ### overwrite params
 * https://discuss.pytorch.org/t/over-writing-weights-of-a-pre-trained-network-like-alexnet/11912
 * https://stackoverflow.com/questions/49446785/how-can-i-update-the-parameters-of-a-neural-network-in-pytorch

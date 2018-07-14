@@ -11,11 +11,18 @@
 * https://jhui.github.io/2018/02/09/PyTorch-Variables-functionals-and-Autograd/
 * https://jhui.github.io/2018/02/09/PyTorch-neural-networks/
 
-## init param
+### float vs double
+* https://discuss.pytorch.org/t/problems-with-weight-array-of-floattensor-type-in-loss-function/381
+> ... recommend using floats instead of doubles. It’s the default tensor type in PyTorch.
+On GPUs, float calculations are much faster than double calculations.
+
+### add params
+* https://discuss.pytorch.org/t/adding-new-parameters/13534
+
+### init param
 * https://pytorch.org/docs/stable/nn.html#torch-nn-init
 * https://stackoverflow.com/questions/49433936/how-to-initialize-weights-in-pytorch
 * https://discuss.pytorch.org/t/how-are-layer-weights-and-biases-initialized-by-default/13073
-
 
 ### overwrite params
 * https://discuss.pytorch.org/t/over-writing-weights-of-a-pre-trained-network-like-alexnet/11912

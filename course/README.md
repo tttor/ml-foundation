@@ -19,8 +19,6 @@
 ## tutor
 * http://deeplearning.stanford.edu/wiki/index.php/UFLDL_Tutorial
 * https://developers.google.com/machine-learning/crash-course/
-* https://learningtensorflow.com
-* https://github.com/aymericdamien/TensorFlow-Examples
 
 ## workshop
 * rss2017: New Frontiers for Deep Learning in Robotics.

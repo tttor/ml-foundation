@@ -6,6 +6,10 @@ https://www.tensorflow.org/
 * tfslim: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/slim
 * Tensorlayer: https://github.com/tensorlayer/tensorlayer
 
+## tutor
+* https://learningtensorflow.com
+* https://github.com/aymericdamien/TensorFlow-Examples
+
 ## misc
 * Variable scope allows you to create new variables and
   to share already created ones while

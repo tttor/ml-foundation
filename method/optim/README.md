@@ -1,13 +1,13 @@
 # optim
-More on second order. </br>
+More on higher order. </br>
 See also:
 * https://github.com/tttor/math-foundation/tree/master/optim
 * https://github.com/tttor/rl-foundation/tree/master/method/policy-based/optim
 
 ## for deepnet
-* hessian-free (following (Martens, 2010))
-  * see [hdf_martens_2010.md](hdf_martens_2010.md)
+* [Martens, 2010: hessian-free opt](hdf_martens_2010.md)
 * SdLBFGS @pytorch
+  * https://epubs.siam.org/doi/abs/10.1137/15M1053141
   * https://github.com/harryliew/SdLBFGS
 * standard @pytorch
   * https://pytorch.org/docs/stable/optim.html

@@ -5,7 +5,7 @@ See also:
 * https://github.com/tttor/rl-foundation/tree/master/method/policy-based/optim
 
 ## for deepnet
-* [Martens, 2010: hessian-free opt](hdf_martens_2010.md)
+* hessian-free opt [(Martens, 2010)](hdf_martens_2010.md)
 * SdLBFGS @pytorch
   * https://epubs.siam.org/doi/abs/10.1137/15M1053141
   * https://github.com/harryliew/SdLBFGS

@@ -48,9 +48,19 @@ On GPUs, float calculations are much faster than double calculations.
 * https://github.com/fKunstner/fast-individual-gradients-with-autodiff
 * https://arxiv.org/abs/1510.01799
 
+### conjugate gradient
+* https://github.com/pytorch/pytorch/issues/1359
+* https://github.com/ikostrikov/pytorch-trpo/blob/master/conjugate_gradients.py
+* https://www.upwork.com/job/Implement-conjugate-gradient-optimization-algorithm-neural-network-framework_~01f058eabdf455ece6/
+* https://github.com/torch/optim/blob/master/doc/algos.md#optim.cg
+  * https://github.com/torch/optim/blob/master/cg.lua
+  * http://www.gatsby.ucl.ac.uk/~edward/code/minimize/
+
 ### misc
 * https://discuss.pytorch.org/t/what-is-the-difference-between-tensors-and-variables-in-pytorch/4914/6
   * https://pytorch.org/docs/stable/autograd.html#variable-deprecated
 * https://discuss.pytorch.org/t/any-alternatives-to-flat-for-tensor/3106
 * https://stackoverflow.com/questions/44328530/how-to-get-a-uniform-distribution-in-a-range-r1-r2-in-pytorch
   * `(r1 - r2) * torch.rand(a, b) + r2` # is uniformly distributed on [r1, r2].
+
+

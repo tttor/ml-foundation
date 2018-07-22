@@ -21,7 +21,7 @@ weight = torch.randn(3,2, requires_grad=True)
 bias = torch.randn(3, requires_grad=True)
 gradw = torch.randn(5,3)
 
-# Grad is cumulative from all sampless
+# Approach: grad is cumulative from all sampless
 a = torch.nn.functional.linear(inp, weight, bias)
 loss = (a*gradw).sum()
 

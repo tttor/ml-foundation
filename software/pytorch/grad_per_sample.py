@@ -41,5 +41,3 @@ print(gw2.sum(0))
 
 print("grad bias", gb.shape, gb2.shape, torch.allclose(gb2.sum(0), gb))
 print("grad inp stays the same for other layers networks", gi.shape, gi2.shape, torch.allclose(gi, gi2))
-
-

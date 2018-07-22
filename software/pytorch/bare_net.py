@@ -53,7 +53,7 @@ class BareNet(torch.nn.Module):
         self.output_b = torch.nn.Parameter(torch.zeros(output_dim))
         self.output_a = torch.nn.Parameter(torch.zeros(1))
         self.output_p = torch.nn.Parameter(torch.zeros(hidden_dim, input_dim), requires_grad=False)
-        self.output_params = torch.nn.ParameterList([self.output_w, self.output_b, self.output_a, self.hidden_p])
+        self.output_params = torch.nn.ParameterList([self.output_w, self.output_b, self.output_a, self.output_p])
 
         stdv = 1. / math.sqrt(self.hidden_w.size(1))
         self.hidden_w.data.uniform_(-stdv, stdv)

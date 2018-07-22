@@ -34,7 +34,7 @@ h_relu = torch.nn.functional.relu(h)
 y_pred = h_relu.mm(w2)
 
 loss = (y_pred - y).pow(2).mean()
-print(loss.item())
+# print(loss.item())
 
 # loss.backward()
 # print(w1.grad)
@@ -43,9 +43,7 @@ print(loss.item())
 # print(gv)
 
 ga, = torch.autograd.grad(loss, a, create_graph=True)
-print(ga)
-
-exit()
+# print(ga)
 
 # Net using nn.module ##########################################################
 class Net(torch.nn.Module):
@@ -65,30 +63,37 @@ loss_fn = torch.nn.MSELoss()
 p1 = torch.transpose(p1, 0, 1)
 p2 = torch.transpose(p2, 0, 1)
 
-for name, p in net.named_parameters():
-    # Got RuntimeError: a leaf Variable that requires grad has been used in an in-place operation.
-    # if name == 'hidden.weight':
-    #     p.add_(a * p1)
-    # elif name == 'output.weight':
-    #     p.add_(a * p2)
-    # else:
-    #     pass
 
-    # RuntimeError: One of the differentiated Tensors appears to not have been used in the graph. Set allow_unused=True if this is the desired behavio
-    if name == 'hidden.weight':
-        p = p + (a * p1)
-    elif name == 'output.weight':
-        p = p + (a * p2)
-    else:
-        pass
+# Got: RuntimeError: One of the differentiated Tensors appears to not have been used in the graph. Set allow_unused=True if this is the desired behavior.
+print(net.output.weight)
+net.hidden.weight = torch.nn.parameter.Parameter(net.hidden.weight + (a * p1))
+net.output.weight = torch.nn.parameter.Parameter(net.output.weight + (a * p2))
+print(net.output.weight)
 
-    # TODO: how to update the weight so that we can compute the gradient of loss wrt step-length a?
-    pass
+# for name, p in net.named_parameters():
+#     # Got: RuntimeError: a leaf Variable that requires grad has been used in an in-place operation.
+#     # if name == 'hidden.weight':
+#     #     p.add_(a * p1)
+#     # elif name == 'output.weight':
+#     #     p.add_(a * p2)
+#     # else:
+#     #     pass
+
+#     # Got: RuntimeError: One of the differentiated Tensors appears to not have been used in the graph. Set allow_unused=True if this is the desired behavio
+#     if name == 'hidden.weight':
+#         p = p + (a * p1)
+#     elif name == 'output.weight':
+#         p = p + (a * p2)
+#     else:
+#         pass
+
+#     # TODO: how to update the weight so that we can compute the gradient of loss wrt step-length a?
+#     pass
 
 y_pred = net(x)
 loss = loss_fn(y_pred, y)
 print(loss.item())
 
 # TODO: get ga
-ga, = torch.autograd.grad(loss, a, create_graph=True)
-print(ga)
+# ga, = torch.autograd.grad(loss, a, create_graph=True)
+# print(ga)

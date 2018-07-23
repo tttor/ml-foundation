@@ -16,17 +16,16 @@
 > ... recommend using floats instead of doubles. It’s the default tensor type in PyTorch.
 On GPUs, float calculations are much faster than double calculations.
 
-### add params
-* https://discuss.pytorch.org/t/adding-new-parameters/13534
-
-### init param
-* https://pytorch.org/docs/stable/nn.html#torch-nn-init
-* https://stackoverflow.com/questions/49433936/how-to-initialize-weights-in-pytorch
-* https://discuss.pytorch.org/t/how-are-layer-weights-and-biases-initialized-by-default/13073
-
-### overwrite params
-* https://discuss.pytorch.org/t/over-writing-weights-of-a-pre-trained-network-like-alexnet/11912
-* https://stackoverflow.com/questions/49446785/how-can-i-update-the-parameters-of-a-neural-network-in-pytorch
+### params: add, init
+* add
+  * https://discuss.pytorch.org/t/adding-new-parameters/13534
+* init
+  * https://pytorch.org/docs/stable/nn.html#torch-nn-init
+  * https://stackoverflow.com/questions/49433936/how-to-initialize-weights-in-pytorch
+  * https://discuss.pytorch.org/t/how-are-layer-weights-and-biases-initialized-by-default/13073
+* overwrite
+  * https://discuss.pytorch.org/t/over-writing-weights-of-a-pre-trained-network-like-alexnet/11912
+  * https://stackoverflow.com/questions/49446785/how-can-i-update-the-parameters-of-a-neural-network-in-pytorch
 
 ### higher order derivatives
 * https://discuss.pytorch.org/t/is-there-any-way-to-get-second-order-derivative-or-hessian-matrix/1149
@@ -36,12 +35,13 @@ On GPUs, float calculations are much faster than double calculations.
 * https://discuss.pytorch.org/t/calculating-the-hessian-with-0-2/7233
 * https://discuss.pytorch.org/t/higher-order-derivatives-implementation-explanation/6329
 
-### hessianMatrix-vector product
-* https://discuss.pytorch.org/t/calculating-hessian-vector-product/11240
-* https://discuss.pytorch.org/t/issues-computing-hessian-vector-product/2709
+### hessian/newton matrix vector product
+* https://discuss.  pytorch.org/t/calculating-hessian-vector-product/11240
 
-### gauss-hessian, jacobian matrix, gradient per individual input vector
+### gauss-hessian/gauss-newton matrix vector product
 * https://discuss.pytorch.org/t/is-there-anyway-to-calculate-gauss-hessian-matrix/10016
+
+### gradient per individual input vector
 * https://discuss.pytorch.org/t/efficient-computation-of-per-sample-examples/18587
 * https://discuss.pytorch.org/t/quickly-get-individual-gradients-not-sum-of-gradients-of-all-network-outputs/8405
 * https://github.com/pytorch/pytorch/issues/7786

@@ -2,6 +2,7 @@
 * James Martens
 * icml2010
 * https://github.com/drasmuss/hessianfree # own net
+  * https://github.com/tttor/hessianfree/tree/study/hessianfree
 * https://github.com/MoonL1ght/HessianFreeOptimization # tf
 * https://github.com/doomie/HessianFree # theano
 
@@ -10,35 +11,38 @@
   seeming to halt altogether before making significant progress,
   resulting in poor performance on the training set (under-fitting).
 * using off-the-shelf implementations of HF
-  * they simply don’t work for neural network training, or
-    are at least grossly impractical.
+  * simply don’t work for neural network training, or
+  * are at least grossly impractical.
 
 ## observation
 * gradient descent (curvature-blind) is unsuitable for optimizing objectives
   that exhibit pathological curvature.
-* Hessian-free optimization (HF), aka truncated-Newton, which
-  has been studied in the optimization community for decades (e.g. Nocedal & Wright, 1999),
-  * but never seriously applied within machine learning.
+* Hessian-free optimization (HF), aka truncated-Newton,
+  * has been studied in the optimization community for decades (e.g. Nocedal & Wright, 1999),
+  * **but never seriously applied** within machine learning.
 
 ## idea: Making HF suitable for machine learning problems
 ### 4.1: damping
-* Newton-Lanczos methods: very expensive and thus not cost- effective in practice
+* Newton-Lanczos methods:
+  * very expensive and
+  * thus not cost-effective in practice
 * used a simple Levenberg-Marquardt style heuristic for adjusting $\lambda$ directly
 
 ### 4.2: matrix-vector product
-* the product Hd can be computed using finite- differences,
+* the product $Hd$ can be computed using finite-differences,
   * subject to numerical problems and
   * also requires the computationally expensive evaluation of non-linear functions
 * Schraudolph (2002) generalized Pearlmutter’s method
-  * to compute the product $Gd$ where $G$ is the Gauss-Newton approximation to the Hessian.
-* reasons for using G instead of H.
+  * to compute the product $Gd$
+    * $G$ is the Gauss-Newton approximation to the Hessian.
+* reasons for using $G$ instead of $H$.
   * Gauss-Newton matrix G is guaranteed to be positive semi-definite, even when un-damped,
     * which avoids the problem of neg- ative curvature,
-    * thus guaranteeing that CG will work for any positive value of λ.
+    * thus guaranteeing that CG will work for any positive value of $\lambda$
   * consistently resulted in much better search directions,
     * even in situations where negative curvature was not present.
     * on all of the learning problems we tested,
-  * the associated matrix-vector product algorithm for G
+  * the associated matrix-vector product algorithm for $G$
     * uses about half the memory and
     * runs nearly twice as fast.
 

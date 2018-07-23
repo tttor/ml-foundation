@@ -2,6 +2,10 @@
 * https://discuss.pytorch.org/t/roadmap-for-torch-and-pytorch/38
 * https://github.com/ritchieng/the-incredible-pytorch
 
+## book
+* https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-pytorch
+  * https://github.com/PacktPublishing/Deep-Learning-with-PyTorch
+
 ## tutor
 * https://github.com/pytorch/examples
 * https://github.com/yunjey/pytorch-tutorial

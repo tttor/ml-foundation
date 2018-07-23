@@ -6,6 +6,9 @@ https://www.tensorflow.org/
 * tfslim: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/slim
 * Tensorlayer: https://github.com/tensorlayer/tensorlayer
 
+## book
+* https://www.packtpub.com/big-data-and-business-intelligence/tensorflow-1x-deep-learning-cookbook
+
 ## tutor
 * https://learningtensorflow.com
 * https://github.com/aymericdamien/TensorFlow-Examples

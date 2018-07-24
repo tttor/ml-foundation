@@ -30,3 +30,7 @@ See also:
 * https://studywolf.wordpress.com/2016/04/04/deep-learning-for-control-using-augmented-hessian-free-optimization/
   * https://github.com/studywolf/blog/blob/master/train_AHF/train_hf.py
 * https://scicomp.stackexchange.com/questions/14513/minimisation-problem-in-thousands-of-dimensions
+
+## misc
+* https://www.quora.com/Why-second-order-optimization-method-impractical-for-training-neural-network
+* https://stats.stackexchange.com/questions/253632/why-is-newtons-method-not-widely-used-in-machine-learning

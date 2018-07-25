@@ -35,7 +35,7 @@
     convolutional neural networks (CNNs).
 
 ## background
-*  The reason that HF sees fewer practical applications than SGD are twofold.
+* The reason that HF sees fewer practical applications than SGD are twofold.
   * its updates are much more expensive to compute,
     * as they involve running linear conjugate gradient (CG) for potentially hundreds of iterations,
       each of which requires a matrix-vector product with the curvature matrix
@@ -43,3 +43,7 @@
   * HF’s estimate of the curvature matrix must remain fixed while CG iterates, and
     * thus the method is able to go through much less data than SGD can in a comparable amount of time,
       making it less well suited to stochastic optimizations.
+
+## comment
+* ? why saying:
+> CG ... because it is a first-order method.

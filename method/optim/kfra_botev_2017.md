@@ -1,10 +1,10 @@
 # Practical Gauss-Newton Optimisation for Deep Learning
 
 ## problem
-* first-order methods:
+* First-order methods:
   * hyperparameter tuning of the optimisation parameters is
     often a laborious process
-*  Second-order methods, such as Gauss-Newton, have largely been dismissed
+* Second-order methods, such as Gauss-Newton, have largely been dismissed
   because of
   * their seemingly prohibitive computational cost and
   * potential instability introduced by using mini-batches.

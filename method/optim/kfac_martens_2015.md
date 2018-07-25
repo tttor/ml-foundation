@@ -30,6 +30,9 @@
     * The cost of doing this is of course the use of an inexact approximation to the curvature matrix.
 * works very well in highly stochastic optimization regimes.
   * unlike: Hessian-free optimization which use high-quality non-diagonal curvature matrices
+* K-FAC utilizes the special structure of neural networks (unlike SGD or HF),
+  * thus: not directly applicable to other neural architectures like RNNs or
+    convolutional neural networks (CNNs).
 
 ## background
 *  The reason that HF sees fewer practical applications than SGD are twofold.

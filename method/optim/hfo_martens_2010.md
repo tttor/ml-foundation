@@ -5,6 +5,7 @@
   * https://github.com/tttor/hessianfree/tree/study/hessianfree
 * https://github.com/MoonL1ght/HessianFreeOptimization # tf
 * https://github.com/doomie/HessianFree # theano
+* https://github.com/boulanni/theano-hf # theano
 
 ## problem
 * gradient-descent progresses extremely slowly on deep nets,

@@ -69,7 +69,6 @@ TODO
     its theory depends very much on a stable definition of B for concepts like B-conjugacy to even make sense.
     * solution:
       to fix the minibatch used to define B for the entire run of CG.
-
 * The preconditioned CG algorithm
   * The preconditioning matrix P
     * allows CG to operate within a transformed coordinate system and
@@ -78,13 +77,25 @@ TODO
 * damping methods:
   * are designed to encourage the minimizer of M to be somewhere in Rn where M
     remains a good approximation to f .
-  *  allow one to optimize M even when B is indefinite
-  * becuase: When f is non-convex (as it is with neural networks), B will sometimes be
+  * allow one to optimize M even when B is indefinite
+  * because: When f is non-convex (as it is with neural networks), B will sometimes be
     indefinite, and so the minimizer of M may not exist.
 *  generalized Gauss-Newton matrix (GGN),
   * is also guaranteed to be positive semi-definite, and
   * tends to work much better than the Hessian in practice as a curvature matrix
     when optimizing non-convex objectives.
+* general problem with 2nd-order optimization
+  * When f is non-convex (as it is with neural networks),
+    * B will sometimes be indefinite, and
+    * so the minimizer of M may not exist.
+    * In particular, progressively larger δ’s may produce arbitrarily low values of M ,
+      leading to nonsensical or undefined updates.
+  * the quadratic model M is only a crude local approximation to f, and
+    * so its minimizer (assuming it even exists), might lie in a region of Rn
+      where the approximation breaks down, sometimes catastrophically
+      * solution:
+        * damping
+        * generalized Gauss-Newton matrix
 
 ## 20.5 Exact Multiplication by the Hessian
 TODO
@@ -138,7 +149,6 @@ TODO
   * Unfortunately, optimization theory has a long way
     to go before being able to predict the performance of a method like HF applied
     to the highly non-convex objectives functions associated with neural networks.
-
 
 ## Comment
 * typo: p483:

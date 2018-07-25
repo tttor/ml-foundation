@@ -27,6 +27,7 @@ See also:
 * http://andrew.gibiansky.com/blog/machine-learning/conjugate-gradient
 * https://justindomke.wordpress.com/2009/01/17/hessian-vector-products/
 * http://ruder.io/deep-learning-optimization-2017/
+* http://ruder.io/optimizing-gradient-descent/index.html
 * https://studywolf.wordpress.com/2016/04/04/deep-learning-for-control-using-augmented-hessian-free-optimization/
   * https://github.com/studywolf/blog/blob/master/train_AHF/train_hf.py
 * https://scicomp.stackexchange.com/questions/14513/minimisation-problem-in-thousands-of-dimensions

@@ -61,7 +61,7 @@ for i in range(ndata):
     # print('ypred_i=', ypred_i)
     # print('loss_i=', loss_i)
 
-    # Note: ypred is the input of the loss
+    # Note: ypred is the input to the loss fn
     dypred_dw_i, = torch.autograd.grad(ypred_i, [net.hidden.weight], create_graph=False)
     dypred_dw_i = torch.squeeze(dypred_dw_i)
     # print('dypred_dw_i=', dypred_dw_i)
@@ -71,13 +71,13 @@ for i in range(ndata):
     dloss_dypred_i, = torch.autograd.grad(loss_i, [ypred_i], create_graph=True)
     # print('dloss_dypred_i=', dloss_dypred_i)
 
-    # Compute d^2(loss)/dypred
-    d2loss_dypred_i, = torch.autograd.grad(dloss_dypred_i, [ypred_i])
-    # print('d2loss_dypred_i=', d2loss_dypred_i)
+    # Compute d^2(loss)/dypred^2
+    d2loss_dypred2_i, = torch.autograd.grad(dloss_dypred_i, [ypred_i])
+    # print('d2loss_dypred2_i=', d2loss_dypred2_i)
 
     # Compute Gauss-Newton matric vector product
     v_i = torch.randn_like(dypred_dw_i) # dummy
-    gv_i = (d2loss_dypred_i * torch.dot(dypred_dw_i, v_i)) * dypred_dw_i
+    gv_i = (d2loss_dypred2_i * torch.dot(dypred_dw_i, v_i)) * dypred_dw_i
     # print('gv_i=', gv_i)
     # print('gv_i.shape=', gv_i.shape)
 

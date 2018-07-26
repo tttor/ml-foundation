@@ -35,9 +35,8 @@ gi2, gw2, gb2 = torch.autograd.grad(loss2, [inp, weight, bias])
 
 # Compare ######################################################################
 print("grad weight", gw.shape, gw2.shape, torch.allclose(gw2.sum(0), gw))
-print(gw.data)
-print(gw2.data)
-print(gw2.sum(0))
-
 print("grad bias", gb.shape, gb2.shape, torch.allclose(gb2.sum(0), gb))
 print("grad inp stays the same for other layers networks", gi.shape, gi2.shape, torch.allclose(gi, gi2))
+# print(gw.data)
+# print(gw2.data)
+# print(gw2.sum(0))

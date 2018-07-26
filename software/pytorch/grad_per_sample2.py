@@ -46,8 +46,8 @@ for i in range(ndata):
     d2loss_dypred_i, = torch.autograd.grad(dloss_dypred_i, [ypred_i])
     print('d2loss_dypred_i=', d2loss_dypred_i)
 
-    v = torch.randn_like(dypred_dw_i) # dummy
-    gv_i = (d2loss_dypred_i * torch.dot(dypred_dw_i, v)) * dypred_dw_i
+    v_i = torch.randn_like(dypred_dw_i) # dummy
+    gv_i = (d2loss_dypred_i * torch.dot(dypred_dw_i, v_i)) * dypred_dw_i
     print('gv_i=', gv_i)
     print('gv_i.shape=', gv_i.shape)
 

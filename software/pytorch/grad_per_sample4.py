@@ -39,7 +39,8 @@ loss = loss_fn(ypred, y)
 
 # print(ypred)
 # print('ypred.shape=', ypred.shape)
-# print('loss=', loss)
+print('loss=', loss)
+exit()
 
 gi, ghw, ghb = torch.autograd.grad(loss, [x, hidden_w, hidden_b], retain_graph=True)
 # print(ghw)

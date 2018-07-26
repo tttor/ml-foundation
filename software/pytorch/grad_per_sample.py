@@ -6,14 +6,20 @@ torch.manual_seed(12345)
 
 class LinearWithBatchGradFn(torch.autograd.Function):
     @staticmethod
-    def forward(ctx, inp, weight, bias=None):
+    def forward(ctx, inp, weight, bias):
+        print('forward()...')
         ctx.save_for_backward(inp, weight, bias)
         return torch.nn.functional.linear(inp, weight, bias)
+
     @staticmethod
     def backward(ctx, grad_out):
+        print('backward()...')
+        print('grad_out.shape=', grad_out.shape)
         inp, weight, bias = ctx.saved_tensors
-        grad_bias = grad_out if bias is not None else None
-        return grad_out @ weight, (inp.unsqueeze(1)*grad_out.unsqueeze(2)), grad_bias
+        grad_input = grad_out @ weight
+        grad_weight = (inp.unsqueeze(1) * grad_out.unsqueeze(2))
+        grad_bias = grad_out
+        return grad_input, grad_weight, grad_bias
 
 # Init #########################################################################
 inp = torch.randn(5,2, requires_grad=True)

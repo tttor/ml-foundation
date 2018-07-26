@@ -67,5 +67,4 @@ On GPUs, float calculations are much faster than double calculations.
 * https://discuss.pytorch.org/t/any-alternatives-to-flat-for-tensor/3106
 * https://stackoverflow.com/questions/44328530/how-to-get-a-uniform-distribution-in-a-range-r1-r2-in-pytorch
   * `(r1 - r2) * torch.rand(a, b) + r2` # is uniformly distributed on [r1, r2].
-
-
+* https://stackoverflow.com/questions/43451125/pytorch-what-are-the-gradient-arguments/47026836

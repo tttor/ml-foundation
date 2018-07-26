@@ -24,35 +24,36 @@ loss_fn = torch.nn.MSELoss(reduce=False, size_average=False)
 # ypred = net(x); print(ypred)
 # loss = loss_fn(ypred, y); print(loss)
 
-gv_sum = torch.zeros(net.hidden_weight[0])
-print(gv_sum)
-exit()
+gv_sum = torch.zeros(net.hidden.weight.shape[0])# now: only net.hidden.weight
+
 for i in range(ndata):
     y_i = y[i]
     ypred_i = net(x[i])
     loss_i = loss_fn(ypred_i, y_i)
-    print('y_i=', y_i)
-    print('ypred_i=', ypred_i)
-    print('loss_i=', loss_i)
+    # print('y_i=', y_i)
+    # print('ypred_i=', ypred_i)
+    # print('loss_i=', loss_i)
 
     # Note: ypred is the input of the loss
     dypred_dw_i, = torch.autograd.grad(ypred_i, [net.hidden.weight], create_graph=False)
     dypred_dw_i = torch.squeeze(dypred_dw_i)
-    print('dypred_dw_i=', dypred_dw_i)
-    print('dypred_dw_i.shape=', dypred_dw_i.shape)
+    # print('dypred_dw_i=', dypred_dw_i)
+    # print('dypred_dw_i.shape=', dypred_dw_i.shape)
 
     # Compute dloss/dypred
     dloss_dypred_i, = torch.autograd.grad(loss_i, [ypred_i], create_graph=True)
-    print('dloss_dypred_i=', dloss_dypred_i)
+    # print('dloss_dypred_i=', dloss_dypred_i)
 
     # Compute d^2(loss)/dypred
     d2loss_dypred_i, = torch.autograd.grad(dloss_dypred_i, [ypred_i])
-    print('d2loss_dypred_i=', d2loss_dypred_i)
+    # print('d2loss_dypred_i=', d2loss_dypred_i)
 
+    # Compute Gauss-Newton matric vector product
     v_i = torch.randn_like(dypred_dw_i) # dummy
     gv_i = (d2loss_dypred_i * torch.dot(dypred_dw_i, v_i)) * dypred_dw_i
-    print('gv_i=', gv_i)
-    print('gv_i.shape=', gv_i.shape)
+    # print('gv_i=', gv_i)
+    # print('gv_i.shape=', gv_i.shape)
 
-    exit()
+    gv_sum += gv_i
 
+print("gv_sum=", gv_sum)

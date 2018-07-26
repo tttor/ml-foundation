@@ -29,7 +29,6 @@ hidden_w = torch.randn(3, 1, requires_grad=True)
 hidden_b = torch.randn(3, requires_grad=True)
 output_w = torch.randn(1, 3, requires_grad=True)
 output_b = torch.randn(1, requires_grad=True)
-# loss_fn = torch.nn.MSELoss(reduce=True)
 loss_fn = mse_loss
 
 # Approach: grad is cumulative from all sampless ###############################

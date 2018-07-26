@@ -24,6 +24,9 @@ loss_fn = torch.nn.MSELoss(reduce=False, size_average=False)
 # ypred = net(x); print(ypred)
 # loss = loss_fn(ypred, y); print(loss)
 
+gv_sum = torch.zeros(net.hidden_weight[0])
+print(gv_sum)
+exit()
 for i in range(ndata):
     y_i = y[i]
     ypred_i = net(x[i])

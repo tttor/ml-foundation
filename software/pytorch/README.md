@@ -40,7 +40,7 @@ On GPUs, float calculations are much faster than double calculations.
 * https://discuss.pytorch.org/t/higher-order-derivatives-implementation-explanation/6329
 
 ### hessian/newton matrix vector product
-* https://discuss.  pytorch.org/t/calculating-hessian-vector-product/11240
+* https://discuss.pytorch.org/t/calculating-hessian-vector-product/11240
 
 ### gauss-hessian/gauss-newton matrix vector product
 * https://discuss.pytorch.org/t/is-there-anyway-to-calculate-gauss-hessian-matrix/10016
@@ -48,6 +48,7 @@ On GPUs, float calculations are much faster than double calculations.
 ### gradient per individual input vector
 * https://discuss.pytorch.org/t/efficient-computation-of-per-sample-examples/18587
 * https://discuss.pytorch.org/t/quickly-get-individual-gradients-not-sum-of-gradients-of-all-network-outputs/8405
+* https://discuss.pytorch.org/t/gradient-w-r-t-each-sample/1433
 * https://github.com/pytorch/pytorch/issues/7786
 * https://github.com/fKunstner/fast-individual-gradients-with-autodiff
 * https://arxiv.org/abs/1510.01799

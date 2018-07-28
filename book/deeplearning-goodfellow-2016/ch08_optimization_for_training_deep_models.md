@@ -121,4 +121,93 @@
     * so underfitting and computational efficiency become the predominant concerns.
 
 # 8.2 Challenges in Neural Network Optimization
+## 8.2.1 Ill-Conditioning
+* ill-conditioning of the Hessian matrix H
+* causing SGD to get “stuck” in the sense that even very small steps increase the cost function
+* Figure 8.1 shows an example of
+  * the gradient **increasing significantly** during the **successful training** of a neural network.
+
+## 8.2.2 Local Minima
+* nearly any deep model is essentially guaranteed to have an extremely large number of local minima.
+  * have multiple local minima because of the model identifiability, eg weight space symmetry
+  * BUT this is not necessarily a major problem
+    * because all these local minima arising from nonidentifiability are equivalent to
+      each other in cost function value
+  * If local minima with high cost (in comparison to the global minimum) are common,
+    this could pose a serious problem for gradient-based optimization algorithms.
+* experts now suspect that, for sufficiently large neural networks,
+  * most local minima have a low cost function value, and
+  * that it is **not important** to find a true global minimum
+  * to find a point in parameter space that has **low but not minimal** cost
+*  A test that can rule out local minima as the problem is
+  * plotting the norm of the gradient over time.
+    * If the norm of the gradient does NOT shrink to insignificant size,
+      * the problem is neither local minima nor any other kind of critical point.
+  * In high-dimensional spaces: very difficult
+    *  as Many structures other than local minima also have small gradients
+
+## 8.2.3 Plateaus, Saddle Points and Other Flat Regions
+* in low dimensional spaces,
+  * local minima are common.
+* In higher-dimensional spaces,
+  * local minima are rare, and
+  * saddle points are more common.
+* gradient descent
+  * empirically seems able to escape saddle points in many cases.
+  *  but the situation may be different for more realistic uses of gradient descent
+* For Newton’s method,
+  * Without appropriate modification, it can jump to a saddle point.
+    * since Newton’s method is designed to solve for a point where the gradient is zero.
+  * The proliferation of saddle points in high-dimensional spaces presumably explains
+    why second-order methods have not succeeded in replacing gradient descent for neural network training
+    * Dauphin et al. (2014) introduced a saddle-free Newton method
+
+## 8.2.4 Cliffs and Exploding Gradients
+* cliffs
+  * are extremely steep regions
+  * result from the multiplication of several large weights together.
+* On the face of an extremely steep cliff structure,
+  * the gradient update step can move the parameters extremely far,
+    usually jumping off the cliff structure altogether
+* solution: the gradient clipping heuristic
+  * intervenes to reduce the step size,
+  * making it less likely to go outside the region where
+    the gradient indicates the direction of approximately steepest descent.
+
+## 8.2.5 Long-Term Dependencies
+* arises when the computational graph becomes extremely deep.
+* Repeated application of the same parameters gives rise to especially pronounced difficulties.
+
+## 8.2.6 Inexact Gradients
+* have only a noisy or even biased estimate of these quantities.
+  * as using a minibatch of training examples to compute the gradient.
+  * When the objective function is intractable, typically its gradient is intractable as well.
+
+## 8.2.7 Poor Correspondence between Local and Global Structure
+* in practice, neural networks do not arrive at a critical point of any kind.
+* suggests research into choosing good initial points for traditional optimization algorithms to use.
+  * all of them might be avoided
+    * if there exists a region of space connected reasonably directly to
+      a solution by a path that local descent can follow, and
+    * if we are able to initialize learning within that well-behaved region
+
+## 8.2.8 Theoretical Limits of Optimization
+* finding a solution for a network of a given size is intractable,
+  * but in practice we can find a solution easily by using a larger network for which
+    many more parameter settings correspond to an acceptable solution.
+* in the context of neural network training,
+  * not care about finding the exact minimum of a function,
+  * but seek only to reduce its value sufficiently to obtain good generalization error.
+* Developing more realistic bounds on the performance of optimization algorithms therefore
+  remains an important goal for machine learning research.
+
+# 8.3 Basic Algorithms
 TODO
+
+# 8.4 Parameter Initialization Strategies
+TODO
+
+# 8.5 Algorithms with Adaptive Learning Rates
+TODO
+
+# 8.6 Approximate Second-Order Methods

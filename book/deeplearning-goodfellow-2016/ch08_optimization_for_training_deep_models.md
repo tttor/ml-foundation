@@ -211,3 +211,53 @@ TODO
 TODO
 
 # 8.6 Approximate Second-Order Methods
+### 8.6.1 Newton’s Method
+* Newton’s method
+  * is an optimization scheme based on using a second-order
+    Taylor series expansion to approximate J(θ) near some point θ0 , ignoring derivatives of higher order
+  * For surfaces that are not quadratic, as long as the Hessian remains positive definite,
+    Newton’s method can be applied iteratively
+* regularizing the Hessian
+  * For: If the eigenvalues of the Hessian are not
+    all positive, for example, near a saddle point, then Newton’s method can actually
+    cause updates to move in the wrong direction
+  * equ (8.28)
+* the application of Newton’s method for training large neural networks is limited by
+  * the significant computational burden it imposes
+  * the surface of the objective function is typically nonconvex,
+    with many features, such as saddle points
+
+## 8.6.2 Conjugate Gradients
+* CG:
+  * to efficiently avoid the calculation of the inverse Hessian by iteratively descending conjugate directions
+  * to find a search direction that is conjugate to the previous line search direction;
+    * that is, it will not undo progress made in that direction.
+  * see algorithm 8.9
+* Two popular methods for computing the $\beta_t$ are
+  * Fletcher-Reeves
+  * Polak-Ribière
+
+### Nonlinear Conjugate Gradients
+* Without any assurance that the objective is quadratic,
+  * the conjugate directions are **no longer assured** to remain at the minimum of
+    the objective for previous directions.
+    * as a result, non-linear CG include
+      occasional resets where the method of conjugate gradients is restarted with line
+      search along the unaltered gradient.
+* variant: the scaled conjugate gradients algorithm (Moller, 1993).
+
+## 8.6.3 BFGS
+* to approximate the inverse with a matrix $M_t$ t
+  * ie: iteratively refined by low-rank updates to become a better approximation of $H^{-1}$
+* belongs to  by quasi-Newton methods
+* vs CG:
+  * similarity: iterates a series of line searches with the direction incorporating second-order information
+  * difference: BFGS can spend less time refining each line search.
+
+### Limited Memory BFGS (or L-BFGS)
+* computes the approximation M using the same method as the BFGS algorithm
+  * **but** beginning with the assumption that $M^{(t-1)}$ is the identity matrix,
+    (rather than storing the approximation from one step to the next.)
+
+# 8.7 Optimization Strategies and Meta-Algorithms
+TODO

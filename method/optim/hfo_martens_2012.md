@@ -3,7 +3,7 @@
 * G. Montavon et al. (Eds.): NN: Tricks of the Trade, 2nd edn.,
   LNCS 7700, pp. 479–535, 2012.Springer-Verlag Berlin Heidelberg 2012
 
-## Intro
+# Intro
 * Hessian-Free optimization (HF)
   * uses local quadratic approximations to generate update proposals
     (Like standard Newton’s method)
@@ -14,7 +14,7 @@
   * if carefully designed and implemented
   * given sensible random initializations.
 
-## Feedforward Neural Networks (FNN)
+# Feedforward Neural Networks (FNN)
 * Given:
   * an input $x$
   * the parameter $\theta$ that determine weight and biases:
@@ -29,10 +29,10 @@
   * is obtained by averaging the losses $f(\theta; (x, t))# over
     a set $S$ of input-output pairs (aka training cases)
 
-## 20.3 Recurrent Neural Networks
+# 20.3 Recurrent Neural Networks
 TODO
 
-## 20.4 Hessian-Free Optimization Basics
+# 20.4 Hessian-Free Optimization Basics
 * Setting:
   * unconstrained minimization of
     a twice-differentiable objective function
@@ -97,10 +97,10 @@ TODO
         * damping
         * generalized Gauss-Newton matrix
 
-## 20.5 Exact Multiplication by the Hessian
+# 20.5 Exact Multiplication by the Hessian
 TODO
 
-## 20.6 The Generalized Gauss-Newton Matrix
+# 20.6 The Generalized Gauss-Newton Matrix
 * The indefiniteness of the Hessian
   * is problematic for 2nd-order optimization of non-convex functions because
     an indefinite curvature matrix B may result in a quadratic M which is
@@ -117,10 +117,10 @@ TODO
       * is a provably positive semidefinite curvature matrix that can
         be viewed as an approximation to the Hessian
 
-### 20.6.1 Multiplying by the Gauss-Newton Matrix
+## 20.6.1 Multiplying by the Gauss-Newton Matrix
 * need an efficient algo rithm for computing the $Gv$ products
 
-### 20.6.3 Dealing with Non-convex Losses
+## 20.6.3 Dealing with Non-convex Losses
 * The generalized Gauss-Newton matrix construction will not produce
   a positive definite matrix in the case of non-convex loss
   * because the GGN matrix will usually be PSD only when $L''$ is
@@ -132,7 +132,27 @@ TODO
     * by taking the eigen-decomposition of L'' and
       discarding the eigenvectors that have negative eigenvalues.
 
-## 20.13 Tricks and Recipes
+# 20.11 Preconditioning
+TODO
+
+# 20.12 Minibatching
+## 20.12.1 Higher Quality Gradient Estimates
+* batch processing:
+  * processes ALL the examples in the training set to compute each parameter update
+* “Online” or “stochastic” gradient algorithms like stochastic gradient descent
+  (SGD) can theoretically use gradient information computed on arbitrarily small
+  subsets of the training set, called “minibatches”, as long as the learning rate is
+  sufficiently small.
+* HF which must estimate the curvature only from
+  the current minibatch, may NOT WORK nearly as well with very small minibatches
+* It may therefore be cost-effective to compute the gradient on a much larger
+  minibatch than is used to compute the matrix-vector products
+  * how large should the minibatch be?
+
+## 20.12.2 Minibatch Overfitting and Methods to Combat It
+TODO
+
+# 20.13 Tricks and Recipes
 * use of the GGN matrix (instead of the Hessian)
 * the CG initialization technique
 * a well-designed preconditioner
@@ -141,7 +161,7 @@ TODO
 * the use of the progress-based termination criterion for CG
 * dynamic adjustment of damping constants (e.g. λ) according to the LM heuristic
 
-## 20.14 Summary
+# 20.14 Summary
 * to use the generalized Gauss-Newton matrix which is guaranteed to be PSD
 * updates must be “damped”
 * HF tends to require much larger minibatches than are used in SGD
@@ -150,7 +170,7 @@ TODO
     to go before being able to predict the performance of a method like HF applied
     to the highly non-convex objectives functions associated with neural networks.
 
-## Comment
+# Comment
 * typo: p483:
   minimizer will exist, and will be given by ...this equ...
 * comparing Equ. 20.1 with Nocedals Equ 2.6

@@ -44,6 +44,10 @@
   * stable quasi-Newton updating
 
 ## 2.1. Sample Size Selection
+* in the context of first-order methods.
+Their inner product test determines a sample size such that
+the search direction is a descent direction with high prob-
+ability.
 * for the search direction: to make an acute angle with the true quasi-Newton search direction
 
 ## 2.2. The Line Search
@@ -111,6 +115,11 @@ by the Armijo condition, and typically lies within (0.1, 1).
 * yes, but under the hood, there are some constants to set
 > the method requires almost no parameter tuning, which is possible due to
 the incorporation of second-order information
+* how most often?
+> show that this steplength procedure is effective on a wide
+range of applications, as it leads to well scaled steps and
+allows for the BFGS update to be performed most of the
+time, even for nonconvex problems.
 * Note: ... prelim ...
 >  a preliminary investigation into the performance of the PBQN algorithm for training neural networks
 > quite difficult due to the existence of local

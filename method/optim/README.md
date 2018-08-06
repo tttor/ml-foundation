@@ -12,8 +12,11 @@ See also:
 * standard @pytorch
   * https://pytorch.org/docs/stable/optim.html
   * L-BFGS
+    * https://pytorch.org/docs/stable/_modules/torch/optim/lbfgs.html#LBFGS
+      * "line search function is not supported yet"
     * https://discuss.pytorch.org/t/lbfgs-not-functioning-the-way-it-is/16705
     * https://discuss.pytorch.org/t/lbfgs-doesnt-seem-to-work-well/9195/2
+
 * kfac @pytorch
   * (not yet implemented in pytorch/optim, now more like an add-on, augment existing optimizers)
   * https://github.com/yaroslavvb/kfac_pytorch/blob/master/kfac_pytorch.py

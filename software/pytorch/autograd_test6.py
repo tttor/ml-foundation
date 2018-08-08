@@ -20,8 +20,12 @@ ypred = ypred.squeeze()
 print('ypred=', ypred)
 
 print('Approach 0...')
+# $f = relu(lin(w))$, where $lin(w) = wx$ and $lin'(w) = x$
+# $df/dw = f'(w) = relu'(lin(w)) lin'(w)$, which is applying chain-rule for composition of functions
+# $f'(w) = relu'(wx) x$
 for i in range(y.numel()):
-    dypred_dw_i = d_relu(ypred[i]) * x[i]
+    x_i = torch.index_select(x,dim=0,index=torch.tensor(i))
+    dypred_dw_i = d_relu(x_i.mm(w)).mm(x_i)
     print(dypred_dw_i)
 
 print('Approach 1a...')

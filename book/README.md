@@ -4,6 +4,7 @@
 * [deeplearning-goodfellow-2016](deeplearning-goodfellow-2016)
 * http://neuralnetworksanddeeplearning.com/
   * https://github.com/mnielsen/neural-networks-and-deep-learning
+* http://www.mbmlbook.com
 
 ## machine learning in general
 * [Encyclopedia of Machine Learning and Data Mining, 2017, Claude Sammut, Geoffrey I. Webb](https://www.springer.com/gp/book/9781489976857)

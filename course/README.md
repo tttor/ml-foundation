@@ -15,6 +15,7 @@
 * http://www.cs.cornell.edu/courses/cs6787
 * http://www.cs.toronto.edu/~tijmen/csc321/
 * http://bayesiandeeplearning.org/
+* https://csc2541-f17.github.io/
 
 ## tutor
 * http://deeplearning.stanford.edu/wiki/index.php/UFLDL_Tutorial

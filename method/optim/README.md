@@ -24,6 +24,9 @@ See also:
     * https://github.com/yaroslavvb/kfac_pytorch/blob/master/deep_autoencoder.ipynb
   * https://github.com/ikostrikov/pytorch-a2c-ppo-acktr/blob/master/algo/kfac.py
 
+## book
+* https://mitpress.mit.edu/books/optimization-machine-learning
+
 ## tutor
 * http://andrew.gibiansky.com/blog/machine-learning/gauss-newton-matrix/
 * http://andrew.gibiansky.com/blog/machine-learning/hessian-free-optimization/
@@ -38,3 +41,7 @@ See also:
 ## misc
 * https://www.quora.com/Why-second-order-optimization-method-impractical-for-training-neural-network
 * https://stats.stackexchange.com/questions/253632/why-is-newtons-method-not-widely-used-in-machine-learning
+
+### natural gradient
+* https://wiseodd.github.io/techblog/2018/03/14/natural-gradient/
+

@@ -5,7 +5,7 @@
 * natural grad can be viewed as a type of approximate 2nd-order optimiza-
 tion method, where the Fisher information matrix can be viewed as an approximation of the Hessian.
 
-## intro
+## 1. Introduction and overview
 * for models with very many parameters such as large
   neural networks, computing the natural gradient is impractical due to the extreme size of
   the Fisher information matrix (“the Fisher”).
@@ -15,7 +15,6 @@ tion method, where the Fisher information matrix can be viewed as an approximati
     * which is defined as the gradient times the inverse of the model’s Fisher information matrix
 
 ## 8. The generalized Gauss-Newton matrix
-
 Schraudolph (2002) showed how the idea of the Gauss-Newton matrix can be generalized
 to the situation where L(y, z) is any loss function which is convex in z.
 

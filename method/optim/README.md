@@ -1,10 +1,9 @@
 # optim
-More on higher order. </br>
 See also:
 * https://github.com/tttor/math-foundation/tree/master/optim
 * https://github.com/tttor/rl-foundation/tree/master/method/policy-based/optim
 
-# for deepnet
+# Newton-type methods
 * hessian-free opt [(Martens, 2010)](hdf_martens_2010.md)
 * SdLBFGS @pytorch
   * https://epubs.siam.org/doi/abs/10.1137/15M1053141
@@ -23,8 +22,9 @@ See also:
     * https://github.com/yaroslavvb/kfac_pytorch/blob/master/deep_autoencoder.ipynb
   * https://github.com/ikostrikov/pytorch-a2c-ppo-acktr/blob/master/algo/kfac.py
 
-# book
+# book, course
 * https://mitpress.mit.edu/books/optimization-machine-learning
+* http://www.cs.cornell.edu/courses/cs6787/2017fa/
 
 # tutor
 * http://andrew.gibiansky.com/blog/machine-learning/gauss-newton-matrix/

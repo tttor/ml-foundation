@@ -24,6 +24,9 @@ See also:
     * https://github.com/yaroslavvb/kfac_pytorch/blob/master/deep_autoencoder.ipynb
   * https://github.com/ikostrikov/pytorch-a2c-ppo-acktr/blob/master/algo/kfac.py
 
+## book
+* https://mitpress.mit.edu/books/optimization-machine-learning
+
 ## tutor
 * http://andrew.gibiansky.com/blog/machine-learning/gauss-newton-matrix/
 * http://andrew.gibiansky.com/blog/machine-learning/hessian-free-optimization/

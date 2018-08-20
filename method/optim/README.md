@@ -41,6 +41,8 @@ See also:
 * https://scicomp.stackexchange.com/questions/14513/minimisation-problem-in-thousands-of-dimensions
 
 ## natural gradient
+* Information Geometry and Its Applications:
+  * https://link.springer.com/book/10.1007%2F978-4-431-55978-8
 * https://wiseodd.github.io/techblog/2018/03/11/fisher-information/
 * https://wiseodd.github.io/techblog/2018/03/14/natural-gradient/
 * http://kvfrans.com/what-is-the-natural-gradient-and-where-does-it-appear-in-trust-region-policy-optimization/

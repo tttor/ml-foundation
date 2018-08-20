@@ -21,6 +21,9 @@ See also:
     * https://medium.com/@yaroslavvb/optimizing-deeper-networks-with-kfac-in-pytorch-4004adcba1b0
     * https://github.com/yaroslavvb/kfac_pytorch/blob/master/deep_autoencoder.ipynb
   * https://github.com/ikostrikov/pytorch-a2c-ppo-acktr/blob/master/algo/kfac.py
+* Krylov Subspace Descent, Oriol Vinyals et al
+  * not require the approximation of the Hessian to be PSD, and our method requires fewer heuristics;
+    * however, it requires more memory.
 
 # book, course
 * https://mitpress.mit.edu/books/optimization-machine-learning
@@ -42,9 +45,10 @@ See also:
 * https://wiseodd.github.io/techblog/2018/03/14/natural-gradient/
 * http://kvfrans.com/what-is-the-natural-gradient-and-where-does-it-appear-in-trust-region-policy-optimization/
 * http://kvfrans.com/a-intuitive-explanation-of-natural-gradient-descent/
+* https://www.reddit.com/r/MachineLearning/comments/2qpf9x/why_is_the_natural_gradient_not_used_more_in/
 
 # misc
 * https://www.quora.com/Why-second-order-optimization-method-impractical-for-training-neural-network
+* https://www.quora.com/Why-are-optimization-techniques-like-natural-gradient-and-second-order-methods-L-BFGS-for-eg-not-much-used-in-deep-learning
 * https://stats.stackexchange.com/questions/253632/why-is-newtons-method-not-widely-used-in-machine-learning
-
 

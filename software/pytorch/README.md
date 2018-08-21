@@ -2,11 +2,11 @@
 * https://discuss.pytorch.org/t/roadmap-for-torch-and-pytorch/38
 * https://github.com/ritchieng/the-incredible-pytorch
 
-## book
+# book
 * https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-pytorch
   * https://github.com/PacktPublishing/Deep-Learning-with-PyTorch
 
-## tutor
+# tutor
 * https://github.com/pytorch/examples
 * https://github.com/yunjey/pytorch-tutorial
 * https://github.com/vinhkhuc/PyTorch-Mini-Tutorials
@@ -40,10 +40,8 @@ On GPUs, float calculations are much faster than double calculations.
 * https://discuss.pytorch.org/t/calculating-the-hessian-with-0-2/7233
 * https://discuss.pytorch.org/t/higher-order-derivatives-implementation-explanation/6329
 
-### hessian/newton matrix vector product
+### Hessian/Gauss-Newton/Jacobian matrix vector product
 * https://discuss.pytorch.org/t/calculating-hessian-vector-product/11240
-
-### gauss-hessian/gauss-newton matrix vector product
 * https://discuss.pytorch.org/t/is-there-anyway-to-calculate-gauss-hessian-matrix/10016
 
 ### gradient per individual input vector

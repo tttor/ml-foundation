@@ -1,8 +1,7 @@
 # Optimizing Neural Networks with Kronecker-factored Approximate Curvature
 * James Martens and Roger Grosse
 * icml2015
-* http://proceedings.mlr.press/v37/martens15-supp.pdf
-* http://proceedings.mlr.press/v37/martens15.pdf
+* http://proceedings.mlr.press/v37/martens15.html
 * https://arxiv.org/abs/1503.05671
 * http://videolectures.net/icml2015_martens_approximate_curvature/
 * http://www.cs.toronto.edu/~jmartens/docs/KFAC3-MATLAB.zip

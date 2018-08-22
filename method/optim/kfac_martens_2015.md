@@ -4,11 +4,14 @@
 * http://proceedings.mlr.press/v37/martens15.html
 * https://arxiv.org/abs/1503.05671
 * http://videolectures.net/icml2015_martens_approximate_curvature/
+* http://videolectures.net/site/normal_dl/tag=1004892/icml2015_martens_approximate_curvature_01.pdf
+* https://www.youtube.com/watch?v=qAVZd6dHxPA
 * http://www.cs.toronto.edu/~jmartens/docs/KFAC3-MATLAB.zip
 * https://medium.com/@yaroslavvb/optimizing-deeper-networks-with-kfac-in-pytorch-4004adcba1b0
+* https://github.com/tensorflow/kfac
 
 ## problem
-* when using the natural gradient: computing $F^{-1}$  (or its product with $\nabla h$).
+* when using the natural gradient: computing $F^{-1}$  (or its product with $\nabla h$) is hard
 
 ## observation
 * to consider methods which don’t rely on first-order methods like CG as
@@ -25,8 +28,59 @@
   * net's Fisher matrix: neither diagonal nor low-rank, and in some cases is completely non-sparse.
 * is derived by approximating various large blocks of the Fisher (corresponding to entire layers)
   as being the **Kronecker product** of two much smaller matrices
-
 * developing an efficiently invertible approximation to a neural network’s Fisher information matrix,
+* Equ 1: this approximation leads to
+significant computational savings in terms of storage and
+inversion, which we will be able to leverage in order to de-
+sign an efficient algorithm for computing an approximation
+to the natural gradient.
+* interpretation of equ 1
+  *  that we are assuming statistical independence between
+products ā(1) ā(2) of unit activities and products g(1) g (2) of
+unit input derivatives.
+* Additional approximations to F̃ and inverse computations;
+  give rise to computationally efficient methods for computing matrix-vector products with it;
+  not obvious how to invert F tildar efficiently
+  * 3.2 Approximating F̃ as block-diagonal
+    * −1Approximating F̃ as block-diagonal is equivalent to approximating F̃ as block-diagonal
+  * 3.3. Approximating F̃ −1 as block-tridiagonal
+    * approx1imating F̃ as block-tridiagonal is NOT equivalent to ap- proximating F̃ as block-tridiagonal.
+    * observe that assuming that
+      F̂ −1 is block-tridiagonal is equivalent to assuming that it
+      is the precision matrix of an undirected Gaussian graphical
+      model (UGGM) over Dθ (as depicted in Figure 3), whose
+      density function is proportional to exp(−Dθ> F̂ −1 Dθ)
+* at, under
+the assumption that damping is absent (or negligible in its
+affect), K-FAC is invariant to a broad and natural class of
+affine transformations of the network.
+* K-FAC is invariant to
+the choice of logistic sigmoid vs. tanh activation functions
+(provided that equivalent initializations are used and that
+the effect of damping is negligible, etc.). Also note that
+because the network inputs are also transformed by Ω0, K-
+FAC is thus invariant to arbitrary affine transformations of
+the input, which includes many popular training data pre-
+processing techniques.
+* In the case where we use the block-diagonal approximation
+F̆ and compute updates without damping, Theorem 1 af-
+fords us an additional elegant interpretation of what K-FAC
+is doing. In particular, the updates produced by K-FAC end
+up being equivalent to those produced by standard gradient
+descent using a network which is transformed so that the
+unit activities and the unit-gradients are both centered and
+whitened (with respect to the model’s distribution)
+* compute online estimates
+of the quantities required by our inverse Fisher approxima-
+tion over a large ”window” of previously processed mini-
+batches (which makes K-FAC very different from methods
+like HF or KSD, which base their estimates of the curvature
+on a single mini-batch).
+* damping techniques com-
+pensate both for the local quadratic approximation being
+implicitly made to the objective, and for our further approx-
+imation of the Fisher, and are non-optional for essentially
+any 2nd-order method like K-FAC to work properly
 
 ## setup
 * applied it to the 3 deep-autoencoder optimization prob-
@@ -42,7 +96,6 @@ stochastic gradient has on the convergence of the baseline
 the training set as opposed to the test set, as we are chiefly
 interested in optimization speed and not the generalization
 capabilities of the networks themselves.
-
 
 ## result
 * only several times more expensive to computethan the plain stochastic gradient, the updates
@@ -91,10 +144,23 @@ fewer iterations)
   * GGN is a well-known positive semi-definite approximation to the Hessian of the objective function
   * natural gradientbased optimization methods can conversely be viewed as 2nd-order optimization methods
 * The expectation of a Kronecker product is, in general, not equal to the Kronecker product of expectations
+* Cumulants are a natural generalization of the concept of mean
+and variance to higher orders, and indeed 1st-order cumu-
+lants are means and 2nd-order cumulants are covariances.
+Intuitively, cumulants of order k measure the degree to
+which the interaction between variables is intrinsically of
+order k, as opposed to arising from many lower-order in-
+teractions.
+* For a practical natural gradient based optimization method
+which takes large discrete steps in the direction of the nat-
+ural gradient, this invariance of the optimization path will
+only hold approximately.
 
 ## comment
 * math:
   * https://en.wikipedia.org/wiki/Kronecker_product
+  * https://www.quora.com/What-is-an-intuitive-explanation-for-the-precision-matrix
+  * https://www.statlect.com/fundamentals-of-probability/covariance-matrix
 
 * ? why saying:
 > CG ... because it is a first-order method.

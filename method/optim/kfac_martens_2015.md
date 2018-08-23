@@ -9,6 +9,7 @@
 * http://www.cs.toronto.edu/~jmartens/docs/KFAC3-MATLAB.zip
 * https://medium.com/@yaroslavvb/optimizing-deeper-networks-with-kfac-in-pytorch-4004adcba1b0
 * https://github.com/tensorflow/kfac
+* https://github.com/tttor/robot-foundation/tree/master/talk/tor/kfac-20180824
 
 ## problem
 * when using the natural gradient: computing $F^{-1}$  (or its product with $\nabla h$) is hard

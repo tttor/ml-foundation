@@ -46,6 +46,8 @@ See also:
 * http://kvfrans.com/what-is-the-natural-gradient-and-where-does-it-appear-in-trust-region-policy-optimization/
 * http://kvfrans.com/a-intuitive-explanation-of-natural-gradient-descent/
 * https://www.reddit.com/r/MachineLearning/comments/2qpf9x/why_is_the_natural_gradient_not_used_more_in/
+* Scaling Up Natural Gradient by Sparsely Factorizing the Inverse Fisher Matrix, Roger B. Grosse, Ruslan Salakhutdinov
+
 
 # misc
 * https://www.quora.com/Why-second-order-optimization-method-impractical-for-training-neural-network

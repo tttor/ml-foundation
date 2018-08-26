@@ -7,7 +7,10 @@
 * http://videolectures.net/site/normal_dl/tag=1004892/icml2015_martens_approximate_curvature_01.pdf
 * https://www.youtube.com/watch?v=qAVZd6dHxPA
 * http://www.cs.toronto.edu/~jmartens/docs/KFAC3-MATLAB.zip
-* https://medium.com/@yaroslavvb/optimizing-deeper-networks-with-kfac-in-pytorch-4004adcba1b0
+* https://github.com/yaroslavvb/kfac_pytorch/blob/master/kfac_pytorch.py
+  * https://medium.com/@yaroslavvb/optimizing-deeper-networks-with-kfac-in-pytorch-4004adcba1b0
+  * https://github.com/yaroslavvb/kfac_pytorch/blob/master/deep_autoencoder.ipynb
+* https://github.com/ikostrikov/pytorch-a2c-ppo-acktr/blob/master/algo/kfac.py 
 * https://github.com/tensorflow/kfac
 * https://github.com/tttor/robot-foundation/tree/master/talk/tor/kfac-20180824
 

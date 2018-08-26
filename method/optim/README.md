@@ -12,8 +12,7 @@ See also:
     * https://github.com/yaroslavvb/kfac_pytorch/blob/master/deep_autoencoder.ipynb
   * https://github.com/ikostrikov/pytorch-a2c-ppo-acktr/blob/master/algo/kfac.py
 * Krylov Subspace Descent, Oriol Vinyals et al
-  * not require the approximation of the Hessian to be PSD, and our method requires fewer heuristics;
-    * however, it requires more memory.
+  * not require the approximation of the Hessian to be PSD, however, it requires more memory.
 
 ## LBFGS (belongs to Quasi-Newton)
 * https://stats.stackexchange.com/questions/315626/the-reason-of-superiority-of-limited-memory-bfgs-over-adam-solver

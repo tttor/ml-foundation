@@ -49,7 +49,7 @@ See also:
 * Scaling Up Natural Gradient by Sparsely Factorizing the Inverse Fisher Matrix, Roger B. Grosse, Ruslan Salakhutdinov
 
 
-# misc
+# Misc
 * https://www.quora.com/Why-second-order-optimization-method-impractical-for-training-neural-network
 * https://www.quora.com/Why-are-optimization-techniques-like-natural-gradient-and-second-order-methods-L-BFGS-for-eg-not-much-used-in-deep-learning
 * https://stats.stackexchange.com/questions/253632/why-is-newtons-method-not-widely-used-in-machine-learning

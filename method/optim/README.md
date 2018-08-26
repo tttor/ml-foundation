@@ -4,21 +4,12 @@ See also:
 * https://github.com/tttor/rl-foundation/tree/master/method/policy-based/optim
 
 # Newton-type methods
-* hessian-free opt [(Martens, 2010)](hdf_martens_2010.md)
-* KFAC @pytorch
-  * (not yet implemented in pytorch/optim, now more like an add-on, augment existing optimizers)
-  * https://github.com/yaroslavvb/kfac_pytorch/blob/master/kfac_pytorch.py
-    * https://medium.com/@yaroslavvb/optimizing-deeper-networks-with-kfac-in-pytorch-4004adcba1b0
-    * https://github.com/yaroslavvb/kfac_pytorch/blob/master/deep_autoencoder.ipynb
-  * https://github.com/ikostrikov/pytorch-a2c-ppo-acktr/blob/master/algo/kfac.py
+* KFAC
+* HFO: Hessian-Free Opt [(Martens, 2010)](hdf_martens_2010.md)
 * Krylov Subspace Descent, Oriol Vinyals et al
   * not require the approximation of the Hessian to be PSD, however, it requires more memory.
 
 ## LBFGS (belongs to Quasi-Newton)
-* https://stats.stackexchange.com/questions/315626/the-reason-of-superiority-of-limited-memory-bfgs-over-adam-solver
-* https://www.reddit.com/r/MachineLearning/comments/4bys6n/lbfgs_and_neural_nets/
-  * concerns: memory, stochastic settings
-  * https://github.com/keskarnitish/minSQN
 * On optimization methods for deep learning, Quoc V. Le
   * https://cs.stanford.edu/~acoates/papers/LeNgiCoaLahProNg11.pdf
   * Limited memory BFGS (L-BFGS) and
@@ -27,16 +18,14 @@ See also:
     process of pretraining deep algorithms.
   * used LBFGS in minFunc by Mark Schmidt and a
     CG implementation from Carl Rasmussen
-
-* SdLBFGS @pytorch
+* SdLBFGS
   * https://epubs.siam.org/doi/abs/10.1137/15M1053141
-  * https://github.com/harryliew/SdLBFGS
-* L-BFGS @pytorch
-  * https://pytorch.org/docs/stable/_modules/torch/optim/lbfgs.html#LBFGS
-    * "line search function is not supported yet"
-  * https://discuss.pytorch.org/t/lbfgs-not-functioning-the-way-it-is/16705
-  * https://discuss.pytorch.org/t/lbfgs-doesnt-seem-to-work-well/9195/2
-
+  * https://github.com/harryliew/SdLBFGS #pytorch
+* https://stats.stackexchange.com/questions/315626/the-reason-of-superiority-of-limited-memory-bfgs-over-adam-solver
+* https://www.reddit.com/r/MachineLearning/comments/4bys6n/lbfgs_and_neural_nets/
+  * concerns: memory, stochastic settings
+  * https://github.com/keskarnitish/minSQN
+  
 ## natural gradient
 * Information Geometry and Its Applications:
   * https://link.springer.com/book/10.1007%2F978-4-431-55978-8
@@ -46,7 +35,6 @@ See also:
 * http://kvfrans.com/a-intuitive-explanation-of-natural-gradient-descent/
 * https://www.reddit.com/r/MachineLearning/comments/2qpf9x/why_is_the_natural_gradient_not_used_more_in/
 * Scaling Up Natural Gradient by Sparsely Factorizing the Inverse Fisher Matrix, Roger B. Grosse, Ruslan Salakhutdinov
-
 
 # Misc
 * https://www.quora.com/Why-second-order-optimization-method-impractical-for-training-neural-network

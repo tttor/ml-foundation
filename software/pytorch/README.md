@@ -60,6 +60,12 @@ On GPUs, float calculations are much faster than double calculations.
   * https://github.com/torch/optim/blob/master/cg.lua
   * http://www.gatsby.ucl.ac.uk/~edward/code/minimize/
 
+### L-BFGS
+* https://pytorch.org/docs/stable/_modules/torch/optim/lbfgs.html#LBFGS
+  * line search function is not supported yet
+* https://discuss.pytorch.org/t/lbfgs-not-functioning-the-way-it-is/16705
+* https://discuss.pytorch.org/t/lbfgs-doesnt-seem-to-work-well/9195/2
+
 ### misc
 * https://discuss.pytorch.org/t/what-is-the-difference-between-tensors-and-variables-in-pytorch/4914/6
   * https://pytorch.org/docs/stable/autograd.html#variable-deprecated

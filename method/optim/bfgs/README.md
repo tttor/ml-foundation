@@ -14,3 +14,10 @@
 * https://www.reddit.com/r/MachineLearning/comments/4bys6n/lbfgs_and_neural_nets/
   * concerns: memory, stochastic settings
   * https://github.com/keskarnitish/minSQN
+
+# Tutor
+* https://en.wikipedia.org/wiki/Limited-memory_BFGS
+* http://aria42.com/blog/2014/12/understanding-lbfgs
+
+# Software
+* https://github.com/chokkan/liblbfgs

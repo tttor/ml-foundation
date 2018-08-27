@@ -26,7 +26,3 @@ See also:
 * Line search in neural net
   * https://stats.stackexchange.com/questions/321592/are-line-search-methods-used-in-deep-learning-why-not
   * https://www.reddit.com/r/MachineLearning/comments/4trmky/why_arent_line_search_algorithms_used_in/
-* Adaptive learning rate methods
-  * Adagrad
-  * RMSProp: identical to Adagrad, but the cache variable is a “leaky”
-  * Adam: like RMSProp with momentum.

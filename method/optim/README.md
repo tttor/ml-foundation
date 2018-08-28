@@ -5,6 +5,7 @@ See also:
 
 # Book, course
 * https://mitpress.mit.edu/books/optimization-machine-learning
+* https://github.com/tttor/dl-foundation/blob/master/book/deeplearning-goodfellow-2016/ch08_optimization_for_training_deep_models.md
 * http://www.cs.cornell.edu/courses/cs6787/2017fa/
 * http://cs231n.github.io/neural-networks-3/
 * http://cs231n.github.io/optimization-1/

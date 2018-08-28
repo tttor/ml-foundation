@@ -2,6 +2,7 @@
 * Sebastian Ruder
 * https://arxiv.org/abs/1609.04747
 * http://ruder.io/optimizing-gradient-descent/index.html
+* https://www.slideshare.net/SebastianRuder/optimization-for-deep-learning
 
 # 2 Gradient descent variants
 * three variants of gradient descent, which differ in how much data we use to compute the gradient of the objective function.

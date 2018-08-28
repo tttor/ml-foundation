@@ -1,7 +1,7 @@
 # Optim
 See also:
 * https://github.com/tttor/math-foundation/tree/master/optim
-* https://github.com/tttor/rl-foundation/tree/master/method/policy-based/optim
+* https://github.com/tttor/rl-foundation/tree/master/method/policy-based
 
 # Book, course
 * https://mitpress.mit.edu/books/optimization-machine-learning

@@ -12,6 +12,7 @@
 
 # Software
 * https://github.com/chokkan/liblbfgs
+* https://pytorch.org/docs/stable/_modules/torch/optim/lbfgs.html#LBFGS
 
 # Misc
 * https://en.wikipedia.org/wiki/Limited-memory_BFGS

@@ -18,3 +18,4 @@ See also:
 * https://www.quora.com/Why-are-optimization-techniques-like-natural-gradient-and-second-order-methods-L-BFGS-for-eg-not-much-used-in-deep-learning
 * https://stats.stackexchange.com/questions/253632/why-is-newtons-method-not-widely-used-in-machine-learning
 * https://scicomp.stackexchange.com/questions/14513/minimisation-problem-in-thousands-of-dimensions
+* https://stats.stackexchange.com/questions/324981/why-study-convex-optimization-for-theoretical-machine-learning

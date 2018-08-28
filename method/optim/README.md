@@ -14,8 +14,11 @@ See also:
 * Line search in neural net
   * https://stats.stackexchange.com/questions/321592/are-line-search-methods-used-in-deep-learning-why-not
   * https://www.reddit.com/r/MachineLearning/comments/4trmky/why_arent_line_search_algorithms_used_in/
+* Benchmark
+  * https://github.com/IoannisAntonoglou/optimBench
 * https://www.quora.com/Why-second-order-optimization-method-impractical-for-training-neural-network
 * https://www.quora.com/Why-are-optimization-techniques-like-natural-gradient-and-second-order-methods-L-BFGS-for-eg-not-much-used-in-deep-learning
 * https://stats.stackexchange.com/questions/253632/why-is-newtons-method-not-widely-used-in-machine-learning
 * https://scicomp.stackexchange.com/questions/14513/minimisation-problem-in-thousands-of-dimensions
 * https://stats.stackexchange.com/questions/324981/why-study-convex-optimization-for-theoretical-machine-learning
+* https://github.com/Kulbear/deep-learning-coursera/blob/master/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/Optimization%20methods.ipynb

@@ -1,4 +1,4 @@
-# LBFGS (belongs to Quasi-Newton)
+# LBFGS (belongs to Quasi-Newton methods)
 
 # Variant
 * PBQN (Bollapragada, 2018)

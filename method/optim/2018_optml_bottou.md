@@ -42,6 +42,8 @@ are open questions in this research area?
     puting the minimizer of a second-order Taylor series approximation
     (Newton’s method applies successive local rescalings based on minimizing an
     exact second-order Taylor model of F at each iterate.)
+  * ability to achieve a quadratic rate of convergence in the neighborhood
+    of a strong local minimizer
 * Deterministic (i.e., batch) methods are known to benefit from the use of second-
   order information; e.g., Newton’s method achieves a quadratic rate of convergence
   if w1 is sufficiently close to a strong minimizer [52].
@@ -50,6 +52,30 @@ are open questions in this research area?
     faster than sublinear, regardless of the choice of B; see [1, 104].
 
 ## 6.1. Hessian-Free Inexact Newton Methods.
+* solve for Newton direction inexactly through an iterative approach such as
+  the conjugate gradient (CG) method
+  * can enjoy a superlinear rate of convergence
+* CG applied to (6.4b) does not require access to the Hessian itself, only Hessian-vector products,
+  (thus called: Hessian-free.)
+
+### 6.1.1. Subsampled Hessian-Free Newton Methods.
+* observation in the inexact HFO:
+  * the iteration is more tolerant to noise in the Hessian estimate than
+    it is to noise in the gradient estimate
+* On choosing the subsample size
+  * If one chooses the subsample size |Sk H | small enough,
+    then the cost of each product involving the Hessian
+    approximation can be reduced significantly, thus reducing the cost of each CG iteration.
+  * On the other hand, one should choose |Sk H | large enough that the curvature
+    information captured through the Hessian-vector products is productive.
+  * If done appropriately, Hessian subsampling is robust and effective
+
+> When the Hessians are subsampled (i.e., Sk H ⊂ Sk for all k ∈ N), it has NOT been
+shown that the rate of convergence is faster than linear; nevertheless, the reduction
+in the number of iterations required to produce a good approximate solution is often
+significantly lower than if no Hessian information is used in the algorithm.
+
+### 6.1.2. Dealing with Nonconvexity.
 TODO
 
 # 9. Summary and Perspectives.

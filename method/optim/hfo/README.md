@@ -1,4 +1,4 @@
-# HFO: Hessian-free optimization
+# HFO: Hessian-free optimization (belongs to inexact Newton-methods)
 * http://andrew.gibiansky.com/blog/machine-learning/gauss-newton-matrix/
 * http://andrew.gibiansky.com/blog/machine-learning/hessian-free-optimization/
 * https://justindomke.wordpress.com/2009/01/17/hessian-vector-products/

@@ -1,6 +1,7 @@
 # LBFGS (belongs to Quasi-Newton)
 
 # Variant
+* PBQN (Bollapragada, 2018)
 * SLBFGS (Zhao, 2018)
 * IQN (Mokhtari, 2018)
 * SdLBFGS (Wang, 2017)

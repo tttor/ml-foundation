@@ -1,5 +1,7 @@
 # An overview of gradient descent optimization algorithms
 * Sebastian Ruder
+* https://arxiv.org/abs/1609.04747
+* http://ruder.io/optimizing-gradient-descent/index.html
 
 # 2 Gradient descent variants
 * three variants of gradient descent, which differ in how much data we use to compute the gradient of the objective function.

@@ -29,3 +29,4 @@
 ## comment
 * note:
   number of iterations per minibatch for LBFGS
+* ? CG here means nonlinear-CG?

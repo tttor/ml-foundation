@@ -76,8 +76,92 @@ in the number of iterations required to produce a good approximate solution is o
 significantly lower than if no Hessian information is used in the algorithm.
 
 ### 6.1.2. Dealing with Nonconvexity.
-TODO
+* common to employ
+a trust region [37] instead of a line search and to introduce an additional condition in
+step 5 of Algorithm 6.1: terminate CG if a candidate solution sk is a direction of neg-
+ative curvature,
+* the most attractive ways of
+doing this in the context of machine learning is to employ a (subsampled) Gauss–
+Newton approximation to the Hessian
+*  there has been much discussion about the role that
+negative curvature and saddle points play in the optimization of DNNs
 
+## 6.2. Stochastic Quasi-Newton Methods.
+* construct approximations to the Hessian using only gradient
+information, and are applicable for convex and nonconvex problems.
+*  natural to ask whether quasi-Newton methods can be
+extended to the stochastic setting arising in machine learning
+* the distinguishing feature of a quasi-
+Newton scheme is that the sequence {Hk} is updated dynamically by the algorithm
+rather than through a second-order derivative computation at each iterate.
+* enjoyslocal superlinear rate of convergence [51], and this with only first-order information
+and without the need for any linear system solves (which are required by Newton’s
+method for it to be quadratically convergent).
+* issues on BFGS:
+  * the update (6.11)
+yields dense matrices, even when the exact Hessians are sparse, restricting its use to
+small and midsize problems
+  * common solution: L-BFGS:
+   the matrices {Hk } need not be formed explicitly; instead, each
+product of the form Hk ∇F (wk ) can be computed using a formula that only requires
+recent elements of the sequence of displacement pairs {(sk , vk )} that have been saved
+in storage.
+
+### 6.2.1. Deterministic to Stochastic.
+* issues on LBFGS
+  * Given that SG also has a sublinear
+rate of convergence, what benefit, if any, could come from incorporating Hk into
+(6.12)?
+  * Can the iter-
+ation (6.12) yield fast enough progress as to offset this additional per-iteration cost
+  * How could such effects (due to noisy grad estimates)
+be avoided in the stochastic regime?
+
+### 6.2.2. Algorithms.
+* online L-BFGS
+* SQN, performs a sequence of iterations of (6.12) with Hk fixed, then computes a new
+displacement pair (sk , vk ) with sk defined as in (6.13) and vk set using one of the
+strategies outlined above.
+* Experience has shown that some gains in perfor
+mance can be achieved, but the full potential of the quasi-Newton schemes discussed
+above (and potentially others) is not yet known.
+
+## 6.3. Gauss–Newton Methods.
+* The primary advantage of Gauss–
+Newton is that it constructs an approximation to the Hessian using only first-order
+information, and this approximation is guaranteed to be positive semidefinite, even
+when the full Hessian itself may be indefinite. The price to pay for this convenient
+representation is that it ignores second-order interactions between elements of the
+parameter vector w, which might mean a loss of curvature information that could be
+useful for the optimization process
+* The primary advantage of Gauss–
+Newton is that it constructs an approximation to the Hessian using only first-order
+information, and this approximation is guaranteed to be positive semidefinite, even
+when the full Hessian itself may be indefinite. The price to pay for this convenient
+representation is that it ignores second-order interactions between elements of the
+parameter vector w, which might mean a loss of curvature information that could be
+useful for the optimization process
+* The computational cost of the Gauss–Newton method depends on the dimension-
+ality of the prediction function. When the prediction function is scalar-valued, the
+Jacobian matrix Jh is a single row whose elements are already being computed as an
+intermediate step in the computation of the stochastic gradient ∇f (w; ξ). However,
+this is no longer true when the dimensionality is larger than one since then computing
+the stochastic gradient vector ∇f (w; ξ) does not usually require the explicit compu-
+tation of all rows of the Jacobian matrix.
+* probability estimation problems often reduce to using logarithmic losses of the form
+f (w; ξ) = − log(h(xξ ; w)). The generalized Gauss–Newton matrix then reduces to
+...which does not require explicit computation of the Jacobian Jh,
+equ (6.17)
+
+## 6.4. Natural Gradient Method.
+* By contrast, the natural
+gradient method [5, 6] aims to be invariant with respect to all differentiable and
+invertible transformations. The essential idea consists of formulating the gradient de-
+scent algorithm in the space of prediction functions rather than specific parameters
+* quasi-natural-gradient
+
+### Information Geometry.
+TODO
 # 9. Summary and Perspectives.
 * **convergence and complexity theory** for the SG provides
   insight into how these guarantees have translated into practical gains.

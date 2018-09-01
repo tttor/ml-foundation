@@ -3,9 +3,12 @@ See also:
 * https://github.com/tttor/math-foundation/tree/master/optim
 * https://github.com/tttor/rl-foundation/tree/master/method/policy-based
 
-# Book, course
+# Book
 * https://mitpress.mit.edu/books/optimization-machine-learning
 * https://github.com/tttor/dl-foundation/blob/master/book/deeplearning-goodfellow-2016/ch08_optimization_for_training_deep_models.md
+* Non-convex Optimization for Machine Learning, Prateek Jain, http://dx.doi.org/10.1561/2200000058
+
+# Course
 * http://www.cs.cornell.edu/courses/cs6787/2017fa/
 * http://cs231n.github.io/neural-networks-3/
 * http://cs231n.github.io/optimization-1/

@@ -159,6 +159,18 @@ gradient method [5, 6] aims to be invariant with respect to all differentiable a
 invertible transformations. The essential idea consists of formulating the gradient de-
 scent algorithm in the space of prediction functions rather than specific parameters
 * quasi-natural-gradient
+* An important tool for the study of Riemannian geometries is the characteriza-
+tion of its geodesics, i.e., the shortest paths connecting two points.
+  * In a Riemannian space, on the other hand, the shortest path between
+two points can be curved and does not need to be unique.
+
+## 6.5. Methods that Employ Diagonal Scalings
+TODO
+
+# 7. Other Popular Methods.
+7.1. Gradient Methods with Momentum.
+7.2. Accelerated Gradient Methods.
+7.3. Coordinate Descent Methods.
 
 ### Information Geometry.
 TODO

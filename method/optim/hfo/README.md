@@ -4,3 +4,8 @@
 * https://justindomke.wordpress.com/2009/01/17/hessian-vector-products/
 * https://studywolf.wordpress.com/2016/04/04/deep-learning-for-control-using-augmented-hessian-free-optimization/
   * https://github.com/studywolf/blog/blob/master/train_AHF/train_hf.py
+
+# Gauss-Newton matric vector product
+* Efficient Calculation of the Gauss-Newton Approximation of the Hessian Matrix in Neural Networks, Michael Fairbank, 2012
+* Fast Curvature Matrix-Vector Products for Second-Order Gradient Descent, Nicol N. Schraudolph, 2002
+

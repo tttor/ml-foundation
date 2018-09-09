@@ -10,7 +10,7 @@
     $\nabla^2 f(x) p = \nabla f(x)$, where $p$ is the step direction vector
     * solving above linear equation is equivalent to solving a minimization of local quadratic approximation of $f(x)$
   
-# Gauss-Newton matric vector product
+# Gauss-Newton matrix vector product
 * Efficient Calculation of the Gauss-Newton Approximation of the Hessian Matrix in Neural Networks, Michael Fairbank, 2012
 * Fast Curvature Matrix-Vector Products for Second-Order Gradient Descent, Nicol N. Schraudolph, 2002
 

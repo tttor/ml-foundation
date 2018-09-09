@@ -1,9 +1,14 @@
-# HFO: Hessian-free optimization (belongs to inexact Newton-methods)
-* "Hessian-free" because we never construct the Hessian matrix explicitly, 
-   * we directly compute the Hessian-matrix vector product, where the vector here is the search direction vector.
-   * for the Hessian matrix, $B_k = \nabla^2 f(x)$, then the Hessian matrix-vector product is given by
-     $\big(\nabla^2 f(x) \big) \cdot v = \nabla_x \big( \nabla_x f(x) \cdot v \big)$
-
+# HFO: Hessian-free optimization
+* aka "Hessian-free" because 
+  * we never construct the Hessian matrix explicitly, 
+  * we directly compute the Hessian-matrix vector product, where the vector here is the search direction vector.
+  * for the Hessian matrix, $\nabla^2 f(x)$, then the Hessian matrix-vector product is given by
+    $\big(\nabla^2 f(x) \big) \cdot v = \nabla_x \big( \nabla_x f(x) \cdot v \big)$
+* aka "truncated Newton method" because
+  * we truncate the linear CG iteration for some `max_cg_iter`
+  * the inner linear CG loop solves the linear equation $\nabla^2 f(x) p = \nabla f(x)$,
+    which is equivalent to solving a minization of local quadratic approximation of $f(x)$
+  
 # Gauss-Newton matric vector product
 * Efficient Calculation of the Gauss-Newton Approximation of the Hessian Matrix in Neural Networks, Michael Fairbank, 2012
 * Fast Curvature Matrix-Vector Products for Second-Order Gradient Descent, Nicol N. Schraudolph, 2002

@@ -6,8 +6,8 @@
     $\big(\nabla^2 f(x) \big) \cdot v = \nabla_x \big( \nabla_x f(x) \cdot v \big)$
 * aka "truncated Newton method" because
   * we truncate the linear CG iteration for some `max_cg_iter`
-  * the inner linear CG loop approximately solves the linear equation $\nabla^2 f(x) p = \nabla f(x)$,
-    where $p$ is the step direction vector
+  * the truncated inner linear CG loop approximately solves the linear equation 
+    $\nabla^2 f(x) p = \nabla f(x)$, where $p$ is the step direction vector
     * solving above linear equation is equivalent to solving a minization of local quadratic approximation of $f(x)$
   
 # Gauss-Newton matric vector product

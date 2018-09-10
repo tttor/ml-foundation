@@ -20,6 +20,16 @@
   * Sec 4 Fast Curvature Matrix-Vector Products
 * 1994: Fast Exact Multiplication by the Hessian, Barak A. Pearlmutter 
 
+## pytorch
+* https://discuss.pytorch.org/t/r-operator-in-pytorch/19335
+* http://deeplearning.net/software/theano/tutorial/gradients.html#r-operator
+
+## misc
+* https://j-towns.github.io/2017/06/12/A-new-trick.html
+  * Efficient Gauss-Newton matrix computation with R-op 
+    * R-op (which uses forward mode AD, which is not yet available in pytorch) or 
+    * twice L-op (which uses backward mode AD)
+  
 # Misc
 * http://andrew.gibiansky.com/blog/machine-learning/gauss-newton-matrix/
 * http://andrew.gibiansky.com/blog/machine-learning/hessian-free-optimization/

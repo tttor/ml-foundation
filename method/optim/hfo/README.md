@@ -21,8 +21,11 @@
 * 1994: Fast Exact Multiplication by the Hessian, Barak A. Pearlmutter 
 
 ## pytorch
+* https://github.com/pytorch/pytorch/issues/8304
 * https://discuss.pytorch.org/t/r-operator-in-pytorch/19335
 * https://discuss.pytorch.org/t/how-to-compute-jacobian-matrix-in-pytorch/14968
+* https://discuss.pytorch.org/t/more-efficient-implementation-of-jacobian-matrix-computation/6960
+* https://discuss.pytorch.org/t/calculating-jacobian-in-a-differentiable-way/13275
 
 ## misc
 * http://deeplearning.net/software/theano/tutorial/gradients.html#r-operator

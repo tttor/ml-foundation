@@ -10,7 +10,7 @@
     $\nabla^2 f(x) p = \nabla f(x)$, where $p$ is the step direction vector
     * solving above linear equation is equivalent to solving a minimization of local quadratic approximation of $f(x)$
   
-# Gauss-Newton matrix vector product
+# Generalized-Gauss-Newton matrix-vector product
 ## paper
 * 2011: Learning Recurrent Neural Networks with Hessian-Free Optimization, Martens, J. and Sutskever, I.
   * http://www.icml-2011.org/papers/532_icmlpaper.pdf
@@ -22,10 +22,12 @@
 
 ## pytorch
 * https://discuss.pytorch.org/t/r-operator-in-pytorch/19335
-* http://deeplearning.net/software/theano/tutorial/gradients.html#r-operator
-> Work is in progress on the optimizations required to compute efficiently the full Jacobian and the Hessian matrix as well as the Jacobian times vector.
-  
+* https://discuss.pytorch.org/t/how-to-compute-jacobian-matrix-in-pytorch/14968
+
 ## misc
+* http://deeplearning.net/software/theano/tutorial/gradients.html#r-operator
+  * how does the R-op compute the Jacobian under the hood?
+> Work is in progress on the optimizations required to compute efficiently the full Jacobian and the Hessian matrix as well as the Jacobian times vector.
 * https://j-towns.github.io/2017/06/12/A-new-trick.html
   * implementing Rop in Theano may be unnecessary.
   * computing generalised Gauss Newton matrix-vector products, upon a new trick: 

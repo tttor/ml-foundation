@@ -1,13 +1,27 @@
 # Practical Gauss-Newton Optimisation for Deep Learning
+* icml2017
+* https://arxiv.org/abs/1706.03662
+* http://proceedings.mlr.press/v70/botev17a
 
 ## problem
 * First-order methods:
   * hyperparameter tuning of the optimisation parameters is
-    often a laborious process
+    often a laborious process, eg  initial learning rate and decay schedule
+  * pure stochastic gradient descent often struggles to escape ‘valleys’ in the error surface with 
+    largely varying magnitudes of curvature,
 * Second-order methods, such as Gauss-Newton, have largely been dismissed
   because of
   * their seemingly prohibitive computational cost and
   * potential instability introduced by using mini-batches.
+  * for modern neural networks, explicit calculation and storage of the Hessian matrix is infeasible
+* even a block diagonal approximation of Gauss-Newton matrix is computationally infeasible, and 
+  additional approximations are required. 
+
+## idea:  Approximate Gauss-Newton Method
+* develop a recursive block-diagonal approxima-
+tion of the Hessian, where each block corresponds to the
+weights in a single feedforward layer.
+* Approximating the GN Diagonal Blocks
 
 ## result
 * competitive against state-of-the-art first-order
@@ -38,6 +52,15 @@
   Hessian is not guaranteed to be PSD.
   * A Newton update could therefore lead to an increase in the error.
   * A common PSD approximation to the Hessian is the Gauss-Newton (GN) matrix
+* KFAC is less generally appli-
+cable since it requires the network to define a probabilistic
+model on its output. Furthermore, for non-exponential fam-
+ily models, the Gauss-Newton and Fisher approaches are in
+general different.
+* Martens (2010) and Martens & Sutskever (2011) exploited
+the fact that full Gauss-Newton matrix-vector products can
+be computed efficiently using a form of automatic differ-
+entiation. 
 
 ## comment
 * ?: transfer functions?

@@ -63,5 +63,6 @@ be computed efficiently using a form of automatic differ-
 entiation. 
 
 ## comment
+* (-): code has not been released?
 * ?: transfer functions?
   * ans: equiv to activation fn

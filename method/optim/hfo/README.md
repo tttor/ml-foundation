@@ -11,8 +11,14 @@
     * solving above linear equation is equivalent to solving a minimization of local quadratic approximation of $f(x)$
   
 # Gauss-Newton matrix vector product
-* Efficient Calculation of the Gauss-Newton Approximation of the Hessian Matrix in Neural Networks, Michael Fairbank, 2012
-* Fast Curvature Matrix-Vector Products for Second-Order Gradient Descent, Nicol N. Schraudolph, 2002
+## paper
+* 2011: Learning Recurrent Neural Networks with Hessian-Free Optimization, Martens, J. and Sutskever, I.
+  * http://www.icml-2011.org/papers/532_icmlpaper.pdf
+  * Sec 3.1
+* 2012: Efficient Calculation of the Gauss-Newton Approximation of the Hessian Matrix in Neural Networks, Michael Fairbank
+* 2002: Fast Curvature Matrix-Vector Products for Second-Order Gradient Descent, Nicol N. Schraudolph
+  * Sec 4 Fast Curvature Matrix-Vector Products
+* 1994: Fast Exact Multiplication by the Hessian, Barak A. Pearlmutter 
 
 # Misc
 * http://andrew.gibiansky.com/blog/machine-learning/gauss-newton-matrix/

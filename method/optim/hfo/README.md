@@ -23,6 +23,7 @@
 ## pytorch
 * https://discuss.pytorch.org/t/r-operator-in-pytorch/19335
 * http://deeplearning.net/software/theano/tutorial/gradients.html#r-operator
+> Work is in progress on the optimizations required to compute efficiently the full Jacobian and the Hessian matrix as well as the Jacobian times vector.
   
 ## misc
 * https://j-towns.github.io/2017/06/12/A-new-trick.html

@@ -37,7 +37,7 @@ Computes the R operation on `f` wrt to `wrt` evaluated at points given
 in `eval_points`. Mathematically this stands for the jacobian of `f` wrt
 to `wrt` right muliplied by the eval points.  
 ```
-  * alternative R-op
+  * alternative R-op (twice L-op)
 ```py
 def alternative_Rop(f, x, u):
     v = f.type('v')       # Dummy variable v of same type as f

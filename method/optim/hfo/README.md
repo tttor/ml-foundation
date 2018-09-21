@@ -28,6 +28,7 @@
 * https://discuss.pytorch.org/t/how-to-compute-jacobian-matrix-in-pytorch/14968
 * https://discuss.pytorch.org/t/more-efficient-implementation-of-jacobian-matrix-computation/6960
 * https://discuss.pytorch.org/t/calculating-jacobian-in-a-differentiable-way/13275
+* https://discuss.pytorch.org/t/is-there-anyway-to-calculate-gauss-hessian-matrix/10016
 
 ## misc
 * http://deeplearning.net/software/theano/tutorial/gradients.html#r-operator

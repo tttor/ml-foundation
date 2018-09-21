@@ -33,7 +33,7 @@
 * http://deeplearning.net/software/theano/tutorial/gradients.html#r-operator
   * how does the R-op compute the Jacobian under the hood?
 > Work is in progress on the optimizations required to compute efficiently the full Jacobian and the Hessian matrix as well as the Jacobian times vector.
-  * in Theano:
+
 ```
 Signature: T.Rop(f, wrt, eval_points)
 Docstring:

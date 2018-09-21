@@ -33,10 +33,6 @@
 * http://deeplearning.net/software/theano/tutorial/gradients.html#r-operator
   * how does the R-op compute the Jacobian under the hood?
 > Work is in progress on the optimizations required to compute efficiently the full Jacobian and the Hessian matrix as well as the Jacobian times vector.
-* https://j-towns.github.io/2017/06/12/A-new-trick.html
-  * implementing Rop in Theano may be unnecessary.
-  * computing generalised Gauss Newton matrix-vector products, upon a new trick: 
-    * a method for calculating jvps by composing two reverse mode vjps!
   * in Theano:
 ```
 Signature: T.Rop(f, wrt, eval_points)
@@ -45,6 +41,13 @@ Computes the R operation on `f` wrt to `wrt` evaluated at points given
 in `eval_points`. Mathematically this stands for the jacobian of `f` wrt
 to `wrt` right muliplied by the eval points.  
 ```
+* https://j-towns.github.io/2017/06/12/A-new-trick.html
+  * implementing Rop in Theano may be unnecessary.
+  * computing generalised Gauss Newton matrix-vector products, upon a new trick: 
+    * a method for calculating jvps by composing two reverse mode vjps!
+  * note: 
+    * R-op uses forward mode AD
+    * L-op uses backward mode AD
   * alternative R-op (twice L-op)
 ```py
 def alternative_Rop(f, x, u):
@@ -52,10 +55,7 @@ def alternative_Rop(f, x, u):
     g = T.Lop(f, x, v)    # Jacobian of f left multiplied by v
     return T.Lop(g, v, u)
 ```    
-  * note: 
-    * R-op uses forward mode AD
-    * L-op uses backward mode AD
-    
+
 # Misc
 * http://andrew.gibiansky.com/blog/machine-learning/gauss-newton-matrix/
 * http://andrew.gibiansky.com/blog/machine-learning/hessian-free-optimization/

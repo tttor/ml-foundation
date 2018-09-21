@@ -1,14 +1,15 @@
 # HFO: Hessian-free optimization
 * aka "Hessian-free" because 
-  * we never construct the Hessian matrix explicitly, 
+  * the Hessian matrix is never constructed explicitly, 
   * we directly compute the Hessian-matrix vector product, where the vector here is the search direction vector.
   * for the Hessian matrix, $\nabla^2 f(x)$, then the Hessian matrix-vector product is given by
     $\big(\nabla^2 f(x) \big) \cdot v = \nabla_x \big( \nabla_x f(x) \cdot v \big)$
     (alternatively, this $Hv$ can be computed using R-op, see [this Theano doc](http://deeplearning.net/software/theano/tutorial/gradients.html#hessian-times-a-vector))
 * aka "truncated Newton method" because
   * we truncate the linear CG iteration for some `max_cg_iter`
-  * the truncated inner linear CG loop approximately solves the linear equation 
-    $\nabla^2 f(x) p = \nabla f(x)$, where $p$ is the step direction vector
+  * the truncated inner linear CG loop 
+    * approximately solves the linear equation 
+      $\nabla^2 f(x) p = \nabla f(x)$, where $p$ is the step direction vector
     * solving above linear equation is equivalent to solving a minimization of local quadratic approximation of $f(x)$
   
 # Generalized-Gauss-Newton matrix-vector product

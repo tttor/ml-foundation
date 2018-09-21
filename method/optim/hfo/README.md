@@ -36,7 +36,7 @@
 * https://j-towns.github.io/2017/06/12/A-new-trick.html
   * implementing Rop in Theano may be unnecessary.
   * computing generalised Gauss Newton matrix-vector products, upon a new trick: 
-    a method for calculating jvps by composing two reverse mode vjps!
+    * a method for calculating jvps by composing two reverse mode vjps!
   * in Theano:
 ```
 Signature: T.Rop(f, wrt, eval_points)

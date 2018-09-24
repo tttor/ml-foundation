@@ -63,3 +63,4 @@ def alternative_Rop(f, x, u):
 * https://justindomke.wordpress.com/2009/01/17/hessian-vector-products/
 * https://studywolf.wordpress.com/2016/04/04/deep-learning-for-control-using-augmented-hessian-free-optimization/
   * https://github.com/studywolf/blog/blob/master/train_AHF/train_hf.py
+* https://gist.github.com/yang-song/07392ed7d57a92a87968e774aef96762 # L operator and R operator in Tensorflow

@@ -1,4 +1,5 @@
 # Fast Curvature Matrix-Vector Products for Second-Order Gradient Descent
+* https://www.mitpressjournals.org/doi/pdf/10.1162/08997660260028683
 
 ## abs
 * propose a generic method for iteratively approximating various sec-

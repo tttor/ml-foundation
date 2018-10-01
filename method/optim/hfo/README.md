@@ -1,7 +1,7 @@
 # HFO: Hessian-free optimization
 * aka "Hessian-free" because 
   * the Hessian matrix is never constructed explicitly, 
-  * we directly compute the Hessian-matrix vector product, where the vector here is the search direction vector.
+  * we directly compute the Hessian-matrix vector product, where the vector here is the step direction vector.
   * for the Hessian matrix, $\nabla^2 f(x)$, then the Hessian matrix-vector product is given by
     $\big(\nabla^2 f(x) \big) \cdot v = \nabla_x \big( \nabla_x f(x) \cdot v \big)$
     (alternatively, this $Hv$ can be computed using R-op, see [this Theano doc](http://deeplearning.net/software/theano/tutorial/gradients.html#hessian-times-a-vector))
@@ -9,15 +9,14 @@
   * we truncate the linear CG iteration for some `max_cg_iter`
   * the truncated inner linear CG loop 
     * approximately solves the linear equation 
-      $\nabla^2 f(x) p = \nabla f(x)$, where $p$ is the step direction vector
+      $\nabla^2 f(x) p = - \nabla f(x)$, where $p$ is the step direction vector
     * solving above linear equation is equivalent to solving a minimization of local quadratic approximation of $f(x)$
   
 # Generalized-Gauss-Newton matrix-vector product
 ## paper
 * 2011: Learning Recurrent Neural Networks with Hessian-Free Optimization, Martens, J. and Sutskever, I.
-  * http://www.icml-2011.org/papers/532_icmlpaper.pdf
-  * Sec 3.1
-* 2012: Efficient Calculation of the Gauss-Newton Approximation of the Hessian Matrix in Neural Networks, Michael Fairbank
+  * Sec 3.1: http://www.icml-2011.org/papers/532_icmlpaper.pdf
+* 2012: Efficient Calculation of the Gauss-Newton Approximation of the Hessian Matrix in Neural Networks, M. Fairbank
 * 2002: Fast Curvature Matrix-Vector Products for Second-Order Gradient Descent, Nicol N. Schraudolph
   * Sec 4 Fast Curvature Matrix-Vector Products
 * 1994: Fast Exact Multiplication by the Hessian, Barak A. Pearlmutter 
@@ -31,8 +30,13 @@
 * https://discuss.pytorch.org/t/is-there-anyway-to-calculate-gauss-hessian-matrix/10016
 
 ## misc
+* https://github.com/drasmuss/hessianfree/blob/master/hessianfree/ffnet.py#L577 # their own net lib
+* https://github.com/doomie/HessianFree/blob/master/hf.py#L115 # theano
 * http://deeplearning.net/software/theano/tutorial/gradients.html#r-operator
-  * how does the R-op compute the Jacobian under the hood?
+  * how does the R-op compute the Jacobian under the hood?      
+    * http://deeplearning.net/software/theano/tutorial/gradients.html#jacobian-times-a-vector
+> Compared to evaluating the Jacobian and then doing the product, there are methods that compute the desired results while avoiding actual evaluation of the Jacobian.
+
 > Work is in progress on the optimizations required to compute efficiently the full Jacobian and the Hessian matrix as well as the Jacobian times vector.
 
 ```
@@ -45,7 +49,7 @@ to `wrt` right muliplied by the eval points.
 * https://j-towns.github.io/2017/06/12/A-new-trick.html
   * implementing Rop in Theano may be unnecessary.
   * computing generalised Gauss Newton matrix-vector products, upon a new trick: 
-    * a method for calculating jvps by composing two reverse mode vjps!
+    * a method for calculating jvp by composing two reverse mode vjp!
   * note: 
     * R-op uses forward mode AD
     * L-op uses backward mode AD
@@ -63,3 +67,4 @@ def alternative_Rop(f, x, u):
 * https://justindomke.wordpress.com/2009/01/17/hessian-vector-products/
 * https://studywolf.wordpress.com/2016/04/04/deep-learning-for-control-using-augmented-hessian-free-optimization/
   * https://github.com/studywolf/blog/blob/master/train_AHF/train_hf.py
+* https://gist.github.com/yang-song/07392ed7d57a92a87968e774aef96762 # L operator and R operator in Tensorflow

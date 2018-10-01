@@ -12,6 +12,7 @@
 * oLBFGS: online LBFGS (Nicol Schraudolph, 2007)
 
 # Software
+* https://github.com/hjmshi/PyTorch-LBFGS
 * https://github.com/chokkan/liblbfgs
 * https://pytorch.org/docs/stable/_modules/torch/optim/lbfgs.html#LBFGS
 * https://www.cs.ubc.ca/~schmidtm/Software/minFunc.html

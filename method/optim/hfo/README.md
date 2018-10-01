@@ -31,8 +31,12 @@
 
 ## misc
 * https://github.com/drasmuss/hessianfree/blob/master/hessianfree/ffnet.py#L577 # their own net lib
+* https://github.com/doomie/HessianFree/blob/master/hf.py#L115 # theano
 * http://deeplearning.net/software/theano/tutorial/gradients.html#r-operator
-  * how does the R-op compute the Jacobian under the hood?
+  * how does the R-op compute the Jacobian under the hood?      
+    * http://deeplearning.net/software/theano/tutorial/gradients.html#jacobian-times-a-vector
+> Compared to evaluating the Jacobian and then doing the product, there are methods that compute the desired results while avoiding actual evaluation of the Jacobian.
+
 > Work is in progress on the optimizations required to compute efficiently the full Jacobian and the Hessian matrix as well as the Jacobian times vector.
 
 ```

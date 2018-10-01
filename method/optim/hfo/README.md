@@ -9,7 +9,7 @@
   * we truncate the linear CG iteration for some `max_cg_iter`
   * the truncated inner linear CG loop 
     * approximately solves the linear equation 
-      $\nabla^2 f(x) p = \nabla f(x)$, where $p$ is the step direction vector
+      $\nabla^2 f(x) p = - \nabla f(x)$, where $p$ is the step direction vector
     * solving above linear equation is equivalent to solving a minimization of local quadratic approximation of $f(x)$
   
 # Generalized-Gauss-Newton matrix-vector product

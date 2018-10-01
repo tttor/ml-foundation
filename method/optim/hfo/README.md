@@ -45,7 +45,7 @@ to `wrt` right muliplied by the eval points.
 * https://j-towns.github.io/2017/06/12/A-new-trick.html
   * implementing Rop in Theano may be unnecessary.
   * computing generalised Gauss Newton matrix-vector products, upon a new trick: 
-    * a method for calculating jvps by composing two reverse mode vjps!
+    * a method for calculating jvp by composing two reverse mode vjp!
   * note: 
     * R-op uses forward mode AD
     * L-op uses backward mode AD

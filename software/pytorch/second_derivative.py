@@ -13,8 +13,8 @@ def main():
     tor_hess = tor_rosen_hess(x_0)
     scipy_hess = sciopt.rosen_hess(x_0.numpy())
     torch.allclose(tor_hess, torch.from_numpy(scipy_hess), rtol=1e-5, atol=1e-8)
+    print(tor_hess.sum(dim=0))
     print(tor_hess)
-
     # test()
     # test2()
 
@@ -51,6 +51,9 @@ def tor_rosen_hess(_x):
     y = tor_rosen(x)
 
     dx, = torch.autograd.grad(y, x, create_graph=True)
+
+    dx_xall_sum, = torch.autograd.grad(dx, x, grad_outputs=torch.FloatTensor([1,1,1,1,1]), retain_graph=True)
+    print(dx_xall_sum)
 
     dx_x1, = torch.autograd.grad(dx, x, grad_outputs=torch.FloatTensor([1,0,0,0,0]), retain_graph=True)
     dx_x2, = torch.autograd.grad(dx, x, grad_outputs=torch.FloatTensor([0,1,0,0,0]), retain_graph=True)

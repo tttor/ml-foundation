@@ -29,3 +29,4 @@
   * http://juxi.net/workshop/deep-learning-rss-2016/
   * https://www.youtube.com/playlist?list=PL2EfTVAIHZW-2GxdCRFjUVuJAmitxniX3
 * http://www.deeplearningindaba.com
+* http://mlss.tuebingen.mpg.de/2017/

@@ -68,6 +68,8 @@ ability.
 * two options for computing the curvature vector
   * the multi-batch (MB) approach (19) with 25% sample overlap, and
   * the full overlap (FO) approach (18)
+* skip the quasi-Newton update if the following curvature condition is
+  not satisfied: Equ 20
 
 ## binary classification problems
 * the logistic loss with regularization

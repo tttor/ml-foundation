@@ -20,6 +20,7 @@
 ## tutor
 * http://deeplearning.stanford.edu/wiki/index.php/UFLDL_Tutorial
 * https://developers.google.com/machine-learning/crash-course/
+* https://www.deeplearningwizard.com/
 
 ## workshop
 * rss2017: New Frontiers for Deep Learning in Robotics.
@@ -28,3 +29,4 @@
   * http://juxi.net/workshop/deep-learning-rss-2016/
   * https://www.youtube.com/playlist?list=PL2EfTVAIHZW-2GxdCRFjUVuJAmitxniX3
 * http://www.deeplearningindaba.com
+* http://mlss.tuebingen.mpg.de/2017/

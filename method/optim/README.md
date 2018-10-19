@@ -19,10 +19,16 @@ See also:
   * https://www.reddit.com/r/MachineLearning/comments/4trmky/why_arent_line_search_algorithms_used_in/
 * Benchmark
   * https://github.com/IoannisAntonoglou/optimBench
+* How much does smoothnes of the loss function matter in neural nets?
+  * https://stats.stackexchange.com/questions/222230/why-cost-function-needs-to-be-smooth-how-this-helps-in-learning
+  * https://stats.stackexchange.com/questions/279837/how-is-the-quadratic-cost-function-in-neural-networks-smooth
+  * https://stats.stackexchange.com/questions/271144/why-cant-this-function-be-used-as-a-loss-function
+  * https://forums.fast.ai/t/differentiable-loss-function/5307
+  * https://www.quora.com/Why-do-we-not-use-a-differentiable-approximation-of-ReLUs
+  * https://www.quora.com/What-are-the-benefits-of-using-ReLU-over-softplus-as-activation-functions
 * https://www.quora.com/Why-second-order-optimization-method-impractical-for-training-neural-network
 * https://www.quora.com/Why-are-optimization-techniques-like-natural-gradient-and-second-order-methods-L-BFGS-for-eg-not-much-used-in-deep-learning
 * https://stats.stackexchange.com/questions/253632/why-is-newtons-method-not-widely-used-in-machine-learning
 * https://scicomp.stackexchange.com/questions/14513/minimisation-problem-in-thousands-of-dimensions
 * https://stats.stackexchange.com/questions/324981/why-study-convex-optimization-for-theoretical-machine-learning
 * https://github.com/Kulbear/deep-learning-coursera/blob/master/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/Optimization%20methods.ipynb
-* https://stats.stackexchange.com/questions/222230/why-cost-function-needs-to-be-smooth-how-this-helps-in-learning

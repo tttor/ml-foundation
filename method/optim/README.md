@@ -26,6 +26,8 @@ See also:
   * https://forums.fast.ai/t/differentiable-loss-function/5307
   * https://www.quora.com/Why-do-we-not-use-a-differentiable-approximation-of-ReLUs
   * https://www.quora.com/What-are-the-benefits-of-using-ReLU-over-softplus-as-activation-functions
+  * https://mathoverflow.net/questions/51370/smooth-approximation-of-the-hinge-loss-function
+  * https://math.stackexchange.com/questions/782586/how-do-you-minimize-hinge-loss
 * https://www.quora.com/Why-second-order-optimization-method-impractical-for-training-neural-network
 * https://www.quora.com/Why-are-optimization-techniques-like-natural-gradient-and-second-order-methods-L-BFGS-for-eg-not-much-used-in-deep-learning
 * https://stats.stackexchange.com/questions/253632/why-is-newtons-method-not-widely-used-in-machine-learning

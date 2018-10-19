@@ -25,3 +25,4 @@ See also:
 * https://scicomp.stackexchange.com/questions/14513/minimisation-problem-in-thousands-of-dimensions
 * https://stats.stackexchange.com/questions/324981/why-study-convex-optimization-for-theoretical-machine-learning
 * https://github.com/Kulbear/deep-learning-coursera/blob/master/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/Optimization%20methods.ipynb
+* https://stats.stackexchange.com/questions/222230/why-cost-function-needs-to-be-smooth-how-this-helps-in-learning

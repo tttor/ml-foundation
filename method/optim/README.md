@@ -19,7 +19,7 @@ See also:
   * https://www.reddit.com/r/MachineLearning/comments/4trmky/why_arent_line_search_algorithms_used_in/
 * Benchmark
   * https://github.com/IoannisAntonoglou/optimBench
-* How much does smoothnes of the loss function matter in neural nets?
+* How much does smoothness of the loss function matter in neural nets?
   * https://stats.stackexchange.com/questions/222230/why-cost-function-needs-to-be-smooth-how-this-helps-in-learning
   * https://stats.stackexchange.com/questions/279837/how-is-the-quadratic-cost-function-in-neural-networks-smooth
   * https://stats.stackexchange.com/questions/271144/why-cant-this-function-be-used-as-a-loss-function

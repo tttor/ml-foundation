@@ -1,6 +1,7 @@
 # A Progressive Batching L-BFGS Method for Machine Learning
 * Raghu Bollapragada 1 Dheevatsa Mudigere 2 Jorge Nocedal 1 Hao-Jun Michael Shi 1 Ping Tak Peter Tang 3
 * https://arxiv.org/abs/1802.05374
+* http://proceedings.mlr.press/v80/bollapragada18a.html
 
 # problem
 * The L-BFGS method (Liu & Nocedal, 1989) has traditionally been

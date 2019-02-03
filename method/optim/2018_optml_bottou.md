@@ -155,14 +155,23 @@ equ (6.17)
 
 ## 6.4. Natural Gradient Method.
 * By contrast, the natural
-gradient method [5, 6] aims to be invariant with respect to all differentiable and
-invertible transformations. The essential idea consists of formulating the gradient de-
-scent algorithm in the space of prediction functions rather than specific parameters
+  gradient method [5, 6] aims to be invariant with respect to all differentiable and
+  invertible transformations. The essential idea consists of formulating the gradient de-
+  scent algorithm in the space of prediction functions rather than specific parameters
 * quasi-natural-gradient
 * An important tool for the study of Riemannian geometries is the characteriza-
-tion of its geodesics, i.e., the shortest paths connecting two points.
+  tion of its geodesics, i.e., the shortest paths connecting two points.
   * In a Riemannian space, on the other hand, the shortest path between
-two points can be curved and does not need to be unique.
+    two points can be curved and does not need to be unique.
+* the natural gradient algorithm and Newton’s method
+  perform very similarly as optimality is approached.
+* the numerical computation of the Fisher information matrix G(wk ) in
+  large learning systems is generally very challenging.
+  * Moreover, estimating the expec-
+    tation (6.21) with, say, a Monte Carlo approach is usually prohibitive due to the cost
+    of sampling the current density estimate
+  * Several authors [119, 99] suggest using instead a subset of training examples and
+    computing a quantity of the form ...p284
 
 ## 6.5. Methods that Employ Diagonal Scalings
 TODO

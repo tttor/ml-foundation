@@ -4,12 +4,12 @@ import torch
 def main():
     n = 3; torch.manual_seed(123)
 
-    mean_1 = torch.randn(n)
-    stddev_1 = torch.randn_like(mean_1)
+    mean_1 = torch.rand(n)
+    stddev_1 = torch.rand_like(mean_1)
     normal_1 = torch.distributions.Normal(loc=mean_1, scale=stddev_1)
 
-    mean_2 = torch.randn(n, requires_grad=True)
-    stddev_2 = torch.randn_like(mean_2, requires_grad=True)
+    mean_2 = torch.rand(n, requires_grad=True)
+    stddev_2 = torch.rand_like(mean_2, requires_grad=True)
     normal_2 = torch.distributions.Normal(loc=mean_2, scale=stddev_2)
 
     # Hellinger

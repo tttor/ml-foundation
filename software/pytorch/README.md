@@ -8,6 +8,7 @@
 
 # tutor
 * https://github.com/pytorch/examples
+* https://github.com/jcjohnson/pytorch-examples
 * https://github.com/yunjey/pytorch-tutorial
 * https://github.com/vinhkhuc/PyTorch-Mini-Tutorials
 * https://github.com/hunkim/PyTorchZeroToAll

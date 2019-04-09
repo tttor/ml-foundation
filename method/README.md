@@ -5,6 +5,7 @@
 * https://stats.stackexchange.com/questions/233658/softmax-vs-sigmoid-function-in-logistic-classifier
   * the softmax function is an extension of the sigmoid function to the multiclass case
 * http://scott.fortmann-roe.com/docs/BiasVariance.html
+* backprop: https://ml-cheatsheet.readthedocs.io/en/latest/backpropagation.html
 
 # Maximum Likelihood Estimation
 * https://medium.com/quick-code/maximum-likelihood-estimation-for-regression-65f9c99f815d

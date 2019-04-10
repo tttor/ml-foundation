@@ -11,3 +11,6 @@
 * https://medium.com/quick-code/maximum-likelihood-estimation-for-regression-65f9c99f815d
 * Nando de Freitas: https://www.youtube.com/watch?v=voN8omBe2r4
 * Bishop (2006), chapter 3.1.1 for linear regression and 4.2 for classification
+
+# Gaussian Processes
+* https://distill.pub/2019/visual-exploration-gaussian-processes/

@@ -17,6 +17,9 @@
 * http://bayesiandeeplearning.org/
 * https://csc2541-f17.github.io/
 * https://fleuret.org/ee559/
+* NYU DL
+  * https://www.youtube.com/watch?v=0bMe_vCZo30&list=PLLHTzKZzVU9eaEyErdV26ikyolxOsz6mq
+  * https://twitter.com/alfcnz/status/1237214097252515840
 
 ## tutor
 * http://deeplearning.stanford.edu/wiki/index.php/UFLDL_Tutorial

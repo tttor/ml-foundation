@@ -25,6 +25,7 @@
 * http://deeplearning.stanford.edu/wiki/index.php/UFLDL_Tutorial
 * https://developers.google.com/machine-learning/crash-course/
 * https://www.deeplearningwizard.com/
+* https://github.com/Atcold/pytorch-Deep-Learning
 
 ## workshop
 * rss2017: New Frontiers for Deep Learning in Robotics.

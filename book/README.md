@@ -6,6 +6,8 @@
   * https://github.com/mnielsen/neural-networks-and-deep-learning
 * http://www.mbmlbook.com
 * https://mml-book.github.io/
+* https://d2l.ai/ 
+  * An interactive deep learning book with code, math, and discussions, based on the NumPy interface.
 
 ## machine learning in general
 * [Encyclopedia of Machine Learning and Data Mining, 2017, Claude Sammut, Geoffrey I. Webb](https://www.springer.com/gp/book/9781489976857)

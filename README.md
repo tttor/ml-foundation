@@ -15,3 +15,4 @@ See also:
 * https://medium.com/machine-learning-in-practice/over-200-of-the-best-machine-learning-nlp-and-python-tutorials-2018-edition-dd8cf53cb7dc
 * https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md
 * http://www.geometricdeeplearning.com/
+* https://github.com/Machine-Learning-Tokyo

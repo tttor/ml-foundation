@@ -10,6 +10,7 @@
 * http://vision.stanford.edu/teaching/cs231n/
   * http://cs231n.github.io/
 * http://cs229.stanford.edu/
+  * https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU
 * http://web.stanford.edu/class/cs224n/
 * http://web.stanford.edu/class/cs20si/
 * http://www.cs.cornell.edu/courses/cs6787

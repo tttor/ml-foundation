@@ -14,3 +14,7 @@
 * [Mathematics for Machine Learning, 2018, Marc Peter Deisenroth, A Aldo Faisal, and Cheng Soon Ong](http://mml-book.com)
 * https://www.microsoft.com/en-us/research/people/cmbishop/#!prml-book
 * https://mitpress.mit.edu/books/mathematics-big-data
+
+## math foundation
+* https://www.microsoft.com/en-us/research/wp-content/uploads/2017/11/book-June-14-2017pdf.pdf
+  * https://www.youtube.com/playlist?list=PLD7HFcN7LXRcvobbHq_8zMyWq_tKwtebc

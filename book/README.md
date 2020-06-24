@@ -7,6 +7,8 @@
 * http://www.mbmlbook.com
 * https://d2l.ai/ 
   * An interactive deep learning book with code, math, and discussions, based on the NumPy interface.
+* Deep Learning for Coders with fastai and PyTorch: AI Applications Without a PhD 1st Edition
+  * by Jeremy Howard  (Author), Sylvain Gugger (Author)
 
 ## math foundation
 * https://mml-book.github.io/

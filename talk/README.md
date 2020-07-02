@@ -1,6 +1,8 @@
 # talk
 
 * https://sites.google.com/view/seminarmathdatascience/home
+* DeepMind x UCL | Deep Learning Lecture Series 2020 
+  * https://www.youtube.com/playlist?list=PLqYmG7hTraZCDxZ44o4p3N5Anz3lLRVZF
 
 ## recurrent nets
   * https://colah.github.io/posts/2015-08-Understanding-LSTMs/

@@ -3,6 +3,7 @@
 * https://github.com/ritchieng/the-incredible-pytorch
 
 # book
+* https://pytorch.org/deep-learning-with-pytorch
 * https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-pytorch
   * https://github.com/PacktPublishing/Deep-Learning-with-PyTorch
 

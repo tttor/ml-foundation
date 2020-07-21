@@ -7,6 +7,7 @@ See also:
 * https://mitpress.mit.edu/books/optimization-machine-learning
 * https://github.com/tttor/dl-foundation/blob/master/book/deeplearning-goodfellow-2016/ch08_optimization_for_training_deep_models.md
 * Non-convex Optimization for Machine Learning, Prateek Jain, http://dx.doi.org/10.1561/2200000058
+* https://sites.google.com/view/intro-oco/home
 
 # Course
 * http://www.cs.cornell.edu/courses/cs6787/2017fa/

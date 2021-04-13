@@ -17,7 +17,9 @@
 * Data Science and Machine Learning, Mathematical and Statistical Methods
   * By Dirk P. Kroese, Zdravko Botev, Thomas Taimre, Radislav Vaisman
   * https://github.com/DSML-book
-  
+* Learning Theory from First Principles, Francis Bach
+* https://mml-book.github.io/
+
 ## machine learning in general
 * [Encyclopedia of Machine Learning and Data Mining, 2017, Claude Sammut, Geoffrey I. Webb](https://www.springer.com/gp/book/9781489976857)
 * [Mathematics for Machine Learning, 2018, Marc Peter Deisenroth, A Aldo Faisal, and Cheng Soon Ong](http://mml-book.com)

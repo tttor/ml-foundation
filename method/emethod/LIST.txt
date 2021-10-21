@@ -1,0 +1,99 @@
+/home/tor/rsc/ml-foundation/method/emethod:
+LIST.txt
+loss-landscape
+mle
+optim
+
+/home/tor/rsc/ml-foundation/method/emethod/loss-landscape:
+curvature
+visualization
+
+/home/tor/rsc/ml-foundation/method/emethod/loss-landscape/curvature:
+1901.10159.pdf
+
+/home/tor/rsc/ml-foundation/method/emethod/loss-landscape/visualization:
+1612.04010.pdf
+1901.08168.pdf
+
+/home/tor/rsc/ml-foundation/method/emethod/mle:
+l3.pdf
+lecture-06.pdf
+Machine learning - Maximum likelihood and linear regression.mp4
+Maximum Likelihood Estimation For Regression – Quick Code – Medium.pdf
+
+/home/tor/rsc/ml-foundation/method/emethod/optim:
+2011_optnet_le.md
+2018_inw_xu.md
+2018_optml_bottou.md
+bfgs
+book
+grad
+hfo
+kfac
+natgrad
+README.md
+talk
+xtra
+
+/home/tor/rsc/ml-foundation/method/emethod/optim/bfgs:
+pbqn_bollapragada_2018.md
+README.md
+sdlbfgs_wang_2017.md
+
+/home/tor/rsc/ml-foundation/method/emethod/optim/book:
+Non-convex Optimization for Machine Learning, Prateek Jain.pdf
+(Perspectives in Neural Computing) Adrian J. Shepherd BA, MSc, PhD (auth.) - Second-Order Methods for Neural Networks_ Fast and Reliable Training Methods for Multi-Layer Perceptrons-Springer-Verlag Lo.pdf
+
+/home/tor/rsc/ml-foundation/method/emethod/optim/grad:
+2017_overviewgrad_ruder.md
+2018_ddlr_smith.md
+README.md
+
+/home/tor/rsc/ml-foundation/method/emethod/optim/hfo:
+1994_rop_pearlmutter.md
+Hessian Free Optimization - Andrew Gibiansky.pdf
+Hessian_Free.pdf
+hfo_martens_2010.md
+hfo_martens_2012.md
+kfra_botev_2017.md
+master_Seidl_Robert.pdf
+mvp_schraudolph_2002.md
+README.md
+Training_Deep_and_Recurrent_Networks_with_Hessian-Free_Optimization_2012.pdf
+
+/home/tor/rsc/ml-foundation/method/emethod/optim/kfac:
+1503.05671.pdf
+2nd-order Optimization for Neural Network Training.mp4
+ICLR14 R Pascanu Revisiting Natural Gradient for Deep Networ.mp4
+icml2015_martens_approximate_curvature_01.pdf
+KFAC3-MATLAB.zip
+k-fac-tutorial.pdf
+kfac_vektor_201808241102.pdf
+Kronecker product - Wikipedia.pdf
+lec10.pdf
+martens15.pdf
+martens15-supp.pdf
+Optimizing deeper networks with KFAC in PyTorch. – Yaroslav Bulatov – Medium.pdf
+Roger Grosse Optimizing neural networks using structured pro.mp4
+
+/home/tor/rsc/ml-foundation/method/emethod/optim/natgrad:
+kfac_martens_2015.md
+natgrad_amari_1998.md
+natgrad_martens_2017.md
+natgrad_pascanu_2014.md
+README.md
+
+/home/tor/rsc/ml-foundation/method/emethod/optim/talk:
+An Intuitive Introduction to the Hessian for Deep Learning Practitioners _ Machine Learning Explained.pdf
+CS231n Convolutional Neural Networks for Visual Recognition.pdf
+deeplearning2015_schmidt_nonsmooth_nonfinite_01.pdf
+deeplearning2015_schmidt_smooth_finite_01.pdf
+lec05a.pdf
+Mark Schmidt on “Fast Non-Smooth and Big-Data Optimization” .mp4
+Optimisation with Mark Schmidt - MLSS Sydney 2015.mp4
+Optimization for Deep Learning Highlights in 2017.pdf
+optimizationtalk-171126132036.pdf
+
+/home/tor/rsc/ml-foundation/method/emethod/optim/xtra:
+2018_optml_bottou_fig_06_01.png
+grosse_kfac.png

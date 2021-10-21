@@ -1,0 +1,47 @@
+/home/tor/rsc/ml-foundation/course/ecourse:
+coursera-course-1-neural-networks-and-deep-learning
+LIST.txt
+misc
+stanford-cs20
+stanford-cs229
+stanford-cs231n
+
+/home/tor/rsc/ml-foundation/course/ecourse/coursera-course-1-neural-networks-and-deep-learning:
+(4) 10. Derivatives Examples - YouTube.mp4
+(4) 11. Computation Graph - YouTube.mp4
+(4) 13. Logistic Regression Derivatives - YouTube.mp4
+(4) 14. Gradient Descent on m Training Examples - YouTube.mp4
+(4) 8. Gradient Descent - YouTube.mp4
+(4) 9. Derivatives - YouTube.mp4
+(4) Logistic Regression Gradient Descent (C1W2L09) - YouTube.mp4
+(8) Computation Graph (C1W2L07) - YouTube.mp4
+(8) Derivatives (C1W2L05) - YouTube.mp4
+(8) Derivatives With Computation Graphs (C1W2L08) - YouTube.mp4
+(8) Explanation of Logistic Regression's Cost Function (C1W2.mp4
+(8) Gradient Descent (C1W2L04) - YouTube.mp4
+(8) Gradient Descent on m Examples (C1W2L10) - YouTube.mp4
+(8) Logistic Regression (C1W2L02) - YouTube.mp4
+(8) Logistic Regression Cost Function (C1W2L03) - YouTube.mp4
+(8) More Derivative Examples (C1W2L16) - YouTube.mp4
+(8) Welcome (C1W1L01) - YouTube.mp4
+(8) What is a Neural Network (C1W1L02) - YouTube.mp4
+
+/home/tor/rsc/ml-foundation/course/ecourse/misc:
+16. Learning Support Vector Machines.mp4
+Deep Learning Chapter 1 Introduction presented by Ian Goodfe.mp4
+Deep Learning Chapter 2 Linear Algebra presented by Gavin Cr.mp4
+DeepReinforcementLearningInAction-master.zip
+paper-180305120451.pdf
+PyTorchZeroToAll-20180629T010127Z-001.zip
+
+/home/tor/rsc/ml-foundation/course/ecourse/stanford-cs20:
+slides_01.pdf
+slides_09.pdf
+slides_14.pdf
+
+/home/tor/rsc/ml-foundation/course/ecourse/stanford-cs229:
+cs229-notes1.pdf
+
+/home/tor/rsc/ml-foundation/course/ecourse/stanford-cs231n:
+cs231n_2017_lecture14.pdf
+cs231n_2017_lecture16.pdf

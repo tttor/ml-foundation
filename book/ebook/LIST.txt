@@ -99,6 +99,7 @@ README.md
 
 /home/tor/rsc/ml-foundation/book/ebook/kernel:
 (Adaptive computation and machine learning) Schölkopf, Bernhard_Smola, Alexander J - Learning with kernels_ support vector machines, regularization, optimization and beyond-MIT Press (2009).pdf
+Berlinet-Thomas-Agnan2004_Book_ReproducingKernelHilbertSpaces.pdf
 (Computational Molecular Biology) Bernhard Schölkopf, Koji Tsuda, Jean-Philippe Vert - Kernel Methods in Computational Biology-The MIT Press (2004).pdf
 John Shawe-Taylor, Nello Cristianini - Kernel Methods for Pattern Analysis (2004).pdf
 John Shawe-Taylor, Nello Cristianini - Kernel Methods for Pattern Analysis-Cambridge University Press (2004).djvu

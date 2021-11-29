@@ -1,21 +1,15 @@
 /home/tor/rsc/ml-foundation/talk/etalk:
-22-LeCun.mp4
-4-Missing-Signal.mp4
 Backpropagation — ML Cheatsheet documentation.pdf
-How Randomized Analysis Can Help Us Do “Data Science” Exampl.mp4
+big_o.pdf
 JSM_part2.pdf
 JSM_part3.pdf
 LIST.txt
+slides2a.ps
 software
-Spectral Algorithms for Learning Latent Variable Models.mp4
 survey
 talk_JSM_part1.pdf
 talk_JSM_part4.pdf
 thesis
-This Canadian Genius Created Modern AI.mp4
-TTIC Distinguished Lecture Series - Geoffrey Hinton.mp4
-Variational Inference Foundations and Innovations.mp4
-Yann_high.mp4
 
 /home/tor/rsc/ml-foundation/talk/etalk/software:
 README.md

@@ -103,6 +103,7 @@ Berlinet-Thomas-Agnan2004_Book_ReproducingKernelHilbertSpaces.pdf
 (Computational Molecular Biology) Bernhard Schölkopf, Koji Tsuda, Jean-Philippe Vert - Kernel Methods in Computational Biology-The MIT Press (2004).pdf
 John Shawe-Taylor, Nello Cristianini - Kernel Methods for Pattern Analysis (2004).pdf
 John Shawe-Taylor, Nello Cristianini - Kernel Methods for Pattern Analysis-Cambridge University Press (2004).djvu
+kernels.pdf
 (Machine Perception and Artificial Intelligence 64) Elzbieta Pekalska, Robert P. W. Duin - The Dissimilarity Representation for Pattern Recognition_ Foundations and Applications-World Scientific Publi.djvu
 (Machine Perception and Artificial Intelligence 64) Elzbieta Pekalska, Robert P. W. Duin - The Dissimilarity Representation for Pattern Recognition_ Foundations and Applications-World Scientific Publi.pdf
 

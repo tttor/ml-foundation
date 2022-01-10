@@ -31,6 +31,7 @@ Christopher M. Bishop-Pattern Recognition and Machine Learning-Springer (2006).p
 d2l-en.pdf
 Deep learning_ adaptive computation and machine learning-The MIT Press (2016).pdf
 deeplearning-goodfellow-2016
+DL_interview_2201.00650.pdf
 dltf_zaccone_2018.md
 Downey 2012 - Think Bayes.pdf
 DSML.pdf

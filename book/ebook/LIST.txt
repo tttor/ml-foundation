@@ -75,6 +75,7 @@ neural_networks_and_deep_learning.pdf.pdf
 Nikhil Buduma, Nicholas Locascio-Fundamentals of Deep Learning_ Designing Next-Generation Machine Intelligence Algorithms-O’Reilly Media (2017).pdf
 OPTtutorial.pdf
 pml1.pdf
+pml2.pdf
 Probabilistic Machine Learning_book1.pdf
 pytorch
 Ronald L. Graham, Donald E. Knuth, Oren Patashnik - Concrete mathematics_ a foundation for computer science-Addison-Wesley (1994).pdf

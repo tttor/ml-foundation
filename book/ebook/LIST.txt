@@ -49,6 +49,7 @@ Ian Goodfellow, Yoshua Bengio, Aaron Courville-Deep Learning-The MIT Press (2016
 irbookprint.pdf
 Jacqueline Nolis, Emily Robinson - Build a Career in Data Science-Manning Publications (2020).pdf
 Jason Brownlee - Deep Learning for Time Series Forecasting - Predict the Future with MLPs, CNNs and LSTMs in Python (2018).pdf
+Jeremy Howard, Sylvain Gugger - Deep Learning for Coders with fastai and PyTorch_ AI Applications Without a PhD-O'Reilly Media (2020).pdf
 Judea Pearl - Causality_ Models, Reasoning, and Inference-Cambridge University Press (2000).pdf
 Judea Pearl - Causality_ Models, Reasoning and Inference-Cambridge University Press (2009).pdf
 Judea Pearl - Causality_ Models, Reasoning, and Inference-Cambridge University Press (2013).djvu

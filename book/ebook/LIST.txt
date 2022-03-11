@@ -50,6 +50,7 @@ irbookprint.pdf
 Jacqueline Nolis, Emily Robinson - Build a Career in Data Science-Manning Publications (2020).pdf
 Jason Brownlee - Deep Learning for Time Series Forecasting - Predict the Future with MLPs, CNNs and LSTMs in Python (2018).pdf
 Jeremy Howard, Sylvain Gugger - Deep Learning for Coders with fastai and PyTorch_ AI Applications Without a PhD-O'Reilly Media (2020).pdf
+John Wilder Tukey - Exploratory data analysis-Addison-Wesley Pub. Co. (1977).djvu
 Judea Pearl - Causality_ Models, Reasoning, and Inference-Cambridge University Press (2000).pdf
 Judea Pearl - Causality_ Models, Reasoning and Inference-Cambridge University Press (2009).pdf
 Judea Pearl - Causality_ Models, Reasoning, and Inference-Cambridge University Press (2013).djvu
@@ -79,6 +80,7 @@ pml1.pdf
 pml2.pdf
 Probabilistic Machine Learning_book1.pdf
 pytorch
+Ronald K. Pearson - Exploratory Data Analysis using R-CRC (2018).pdf
 Ronald L. Graham, Donald E. Knuth, Oren Patashnik - Concrete mathematics_ a foundation for computer science-Addison-Wesley (1994).pdf
 RW.pdf
 Sam Abrahams, Danijar Hafner, Erik Erwitt, Ariel Scarpinelli-TensorFlow for Machine Intelligence_ A Hands-On Introduction to Learning Algorithms-Bleeding Edge Press (2016).pdf
@@ -87,7 +89,10 @@ Sebastian Raschka, Vahid Mirjalili - Python Machine Learning. 2nd ed-Packt Publi
 Sebastian Raschka, Vahid Mirjalili - Python Machine Learning-Packt Publishing (2017).pdf
 Shalev-Shwartz S., Ben-David S.-Understanding Machine Learning_ From Theory to Algorithms-CUP (2014).pdf
 (Springer Texts in Statistics) Richard A. Berk (auth.) - Statistical Learning from a Regression Perspective-Springer International Publishing (2016).pdf
+(Springer Texts in Statistics) S. H. C. du Toit, A. G. W. Steyn, R. H. Stumpf (auth.) - Graphical Exploratory Data Analysis-Springer-Verlag New York (1986).pdf
 Steinwart-Christmann2008_Book_SupportVectorMachines.pdf
+Stephanie D. H. Evergreen - Effective data visualization _ the right chart for the right data-SAGE Publications (2020).pdf
+Suresh Kumar Mukhiya, Usman Ahmed - Hands-On Exploratory Data Analysis with Python_ Perform EDA techniques to understand, summarize, and investigate your data-Packt Publishing (2020).pdf
 tensorflow
 tensorflow_gulli_2017.md
 The EM Algorithm and Extensions.pdf

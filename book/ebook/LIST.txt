@@ -25,6 +25,7 @@ Barber D., Cemgil A.T., Chiappa S. (eds.) - Bayesian Time Series Models-Cambridg
 BDA3.pdf
 Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf
 book-June-14-2017pdf.pdf
+Book-WM-20210422.pdf
 Cameron Davidson-Pilon - Bayesian Methods for Hackers. Probabilistic Programming and Bayesian Inference-Addison Wesley (2016).pdf
 Chris Albon - Machine Learning with Python Cookbook_ Practical Solutions from Preprocessing to Deep Learning-O’Reilly Media (2018).pdf
 Christopher M. Bishop-Pattern Recognition and Machine Learning-Springer (2006).pdf

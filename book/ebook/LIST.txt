@@ -29,6 +29,8 @@ Book-WM-20210422.pdf
 Cameron Davidson-Pilon - Bayesian Methods for Hackers. Probabilistic Programming and Bayesian Inference-Addison Wesley (2016).pdf
 Chris Albon - Machine Learning with Python Cookbook_ Practical Solutions from Preprocessing to Deep Learning-O’Reilly Media (2018).pdf
 Christopher M. Bishop-Pattern Recognition and Machine Learning-Springer (2006).pdf
+Christoph Molnar - Interpretable Machine Learning-lulu.com (2020).pdf
+Christoph Molnar - Interpretable Machine Learning-lulu.com (2021).pdf
 d2l-en.pdf
 Deep learning_ adaptive computation and machine learning-The MIT Press (2016).pdf
 deeplearning-goodfellow-2016
@@ -77,6 +79,7 @@ N D Lewis - Deep Time Series Forecasting with Python_ An Intuitive Introduction 
 neural_networks_and_deep_learning.pdf.pdf
 Nikhil Buduma, Nicholas Locascio-Fundamentals of Deep Learning_ Designing Next-Generation Machine Intelligence Algorithms-O’Reilly Media (2017).pdf
 OPTtutorial.pdf
+Pang-Ning Tan - Introduction to Data Mining-Pearson Education Limited (2019).pdf
 pml1.pdf
 pml2.pdf
 Probabilistic Machine Learning_book1.pdf

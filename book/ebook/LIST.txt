@@ -72,6 +72,7 @@ Martin T. Hagan et al.-Neural Network Design (2014).pdf
 Masashi Sugiyama, Taiji Suzuki, Takafumi Kanamori-Density Ratio Estimation in Machine Learning-Cambridge University Press (2012).pdf
 ml-yearning-ng
 Murphy_Machine_Learning.pdf
+Nakajima, S._Watanabe, K._Sugiyama, M. - Variational Bayesian Learning Theory-Cambridge University Press (2019).pdf
 N D Lewis - Deep Time Series Forecasting with Python_ An Intuitive Introduction to Deep Learning for Applied Time Series Modeling-CreateSpace Independent Publishing Platform (2016).pdf
 (Neural Information Processing series) Joaquin Quiñonero-Candela, Masashi Sugiyama, Anton Schwaighofer, Neil D. Lawrence - Dataset Shift in Machine Learning-The MIT Press (2008).pdf
 (Neural Information Processing series) Suvrit Sra, Sebastian Nowozin, Stephen J. Wright - Optimization for Machine Learning (Neural Information Processing series)  -The MIT Press (2011).pdf

@@ -38,6 +38,8 @@ DL_interview_2201.00650.pdf
 dltf_zaccone_2018.md
 Downey 2012 - Think Bayes.pdf
 DSML.pdf
+Eli Stevens, Luca Antiga, Thomas Viehmann - Deep Learning With Pytorch. Code-Manning Pubns Co (2021).zip
+Eli Stevens, Luca Antiga, Thomas Viehmann - Deep Learning with PyTorch-Manning Publications (2020).pdf
 EMbookGuptaChen2010.pdf
 ESLII_print12.pdf
 Ethem Alpaydin - Machine Learning.  The New AI-The MIT Press (2017).pdf
@@ -47,6 +49,7 @@ Francois Chollet - Deep Learning with Python-Manning Publications (2017).pdf
 funddl_buduma_2017.md
 Giuseppe C. Calafiore, Laurent El Ghaoui - Optimization Models-Cambridge University Press (2014).pdf
 Graves2012_Book_SupervisedSequenceLabellingWit.pdf
+Guido, Sarah_Müller, Andreas Christian - Introduction to machine learning with Python a guide for data scientists-O'Reilly Media (2018).pdf
 Ian Goodfellow, Yoshua Bengio, Aaron Courville-Deep Learning-The MIT Press (2016).pdf
 (Institute of Mathematical Statistics Monographs) Bradley Efron, Trevor Hastie - Computer Age Statistical Inference_ Algorithms, Evidence, and Data Science-Cambridge University Press (2016).pdf
 irbookprint.pdf
@@ -103,6 +106,7 @@ tensorflow_gulli_2017.md
 The EM Algorithm and Extensions.pdf
 Tom M. Mitchell - Machine Learning  -MGH (1997).djvu
 tutorial-thompson-sampling.pdf
+Wes McKinney - Python for Data Analysis. Data Wrangling with Pandas, NumPy, and IPython-O’Reilly (2017).pdf
 (Wiley Series in Computational Statistics) Stéphane Tufféry-Data Mining and Statistics for Decision Making-Wiley (2011).pdf
 Yaser S. Abu-Mostafa, Malik Magdon-Ismail, Hsuan-Tien Lin-Learning From Data. A short course-AMLBook (2012).pdf
 

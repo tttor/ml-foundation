@@ -104,11 +104,13 @@ Suresh Kumar Mukhiya, Usman Ahmed - Hands-On Exploratory Data Analysis with Pyth
 tensorflow
 tensorflow_gulli_2017.md
 The EM Algorithm and Extensions.pdf
+The Principles of Deep Learning Theory_2106.10165.pdf
 Tom M. Mitchell - Machine Learning  -MGH (1997).djvu
 tutorial-thompson-sampling.pdf
 Wes McKinney - Python for Data Analysis. Data Wrangling with Pandas, NumPy, and IPython-O’Reilly (2017).pdf
 (Wiley Series in Computational Statistics) Stéphane Tufféry-Data Mining and Statistics for Decision Making-Wiley (2011).pdf
 Yaser S. Abu-Mostafa, Malik Magdon-Ismail, Hsuan-Tien Lin-Learning From Data. A short course-AMLBook (2012).pdf
+yoni-book
 
 /home/tor/rsc/ml-foundation/book/ebook/deeplearning-goodfellow-2016:
 ch08_optimization_for_training_deep_models.md
@@ -168,3 +170,6 @@ TensorFlow_for_Deep_Learning_From_Linear_Regressio..._----_(Chapter_2._Introduct
 TensorFlow_for_Deep_Learning_From_Linear_Regressio..._----_(Chapter_7._Recurrent_Neural_Networks).pdf
 TensorFlow_for_Deep_Learning_From_Linear_Regressio..._----_(Chapter_8._Reinforcement_Learning).pdf
 TensorFlow_for_Deep_Learning_From_Linear_Regressio..._----_(Chapter_9._Training_Large_Deep_Networks).pdf
+
+/home/tor/rsc/ml-foundation/book/ebook/yoni-book:
+chap2.pdf

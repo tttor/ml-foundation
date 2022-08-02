@@ -86,6 +86,7 @@ OPTtutorial.pdf
 Pang-Ning Tan - Introduction to Data Mining-Pearson Education Limited (2019).pdf
 pml1.pdf
 pml2.pdf
+Probabilistic Machine Learning: Advanced Topics.pdf
 Probabilistic Machine Learning_book1.pdf
 pytorch
 Ronald K. Pearson - Exploratory Data Analysis using R-CRC (2018).pdf

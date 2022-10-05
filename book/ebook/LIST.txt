@@ -50,6 +50,7 @@ funddl_buduma_2017.md
 Giuseppe C. Calafiore, Laurent El Ghaoui - Optimization Models-Cambridge University Press (2014).pdf
 Graves2012_Book_SupervisedSequenceLabellingWit.pdf
 Guido, Sarah_Müller, Andreas Christian - Introduction to machine learning with Python a guide for data scientists-O'Reilly Media (2018).pdf
+Hui Jiang - Machine Learning Fundamentals_ A Concise Introduction-Cambridge University Press (2022).pdf
 Ian Goodfellow, Yoshua Bengio, Aaron Courville-Deep Learning-The MIT Press (2016).pdf
 (Institute of Mathematical Statistics Monographs) Bradley Efron, Trevor Hastie - Computer Age Statistical Inference_ Algorithms, Evidence, and Data Science-Cambridge University Press (2016).pdf
 irbookprint.pdf

@@ -52,6 +52,7 @@ Graves2012_Book_SupervisedSequenceLabellingWit.pdf
 Guido, Sarah_Müller, Andreas Christian - Introduction to machine learning with Python a guide for data scientists-O'Reilly Media (2018).pdf
 Hui Jiang - Machine Learning Fundamentals_ A Concise Introduction-Cambridge University Press (2022).pdf
 Ian Goodfellow, Yoshua Bengio, Aaron Courville-Deep Learning-The MIT Press (2016).pdf
+Information Theory, Inference, and Learning Algorithms.pdf
 (Institute of Mathematical Statistics Monographs) Bradley Efron, Trevor Hastie - Computer Age Statistical Inference_ Algorithms, Evidence, and Data Science-Cambridge University Press (2016).pdf
 irbookprint.pdf
 Jacqueline Nolis, Emily Robinson - Build a Career in Data Science-Manning Publications (2020).pdf

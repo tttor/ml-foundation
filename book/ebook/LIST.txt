@@ -53,6 +53,7 @@ Guido, Sarah_Müller, Andreas Christian - Introduction to machine learning with 
 HDP-book.pdf
 Hui Jiang - Machine Learning Fundamentals_ A Concise Introduction-Cambridge University Press (2022).pdf
 Ian Goodfellow, Yoshua Bengio, Aaron Courville-Deep Learning-The MIT Press (2016).pdf
+IEEE-CIS-Open-Access-Book-Volume-1-FirstEditionFirstRevision.zip
 Information Theory, Inference, and Learning Algorithms.pdf
 (Institute of Mathematical Statistics Monographs) Bradley Efron, Trevor Hastie - Computer Age Statistical Inference_ Algorithms, Evidence, and Data Science-Cambridge University Press (2016).pdf
 irbookprint.pdf
